@@ -1,0 +1,57 @@
+name: Validate and deploy site
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate published data (totals, joins, missingness)
+        run: python pipeline/validate.py
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Syntax-check site scripts
+        run: for f in site/assets/*.js; do node --check "$f"; done
+      - name: Check local links and data paths
+        run: |
+          python - <<'PY'
+          import re, pathlib, sys
+          site = pathlib.Path('site'); bad = []
+          for html in site.rglob('*.html'):
+              for ref in re.findall(r'(?:href|src)="([^"#?]+)', html.read_text()):
+                  if ref.startswith(('http', 'data:', 'mailto:')) or ref.endswith('/'):
+                      target = (html.parent / ref / 'index.html') if ref.endswith('/') and not ref.startswith('http') else None
+                      if target and not target.exists(): bad.append(f'{html}: {ref}')
+                      continue
+                  if not (html.parent / ref).exists(): bad.append(f'{html}: {ref}')
+          print('\n'.join(bad) or 'all local references resolve'); sys.exit(1 if bad else 0)
+          PY
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    needs: validate
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

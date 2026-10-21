@@ -1,0 +1,61 @@
+year,branch,measure,count,rate,unit,source
+2021,Army,Heat exhaustion,1032,215.6,"cases per 100,000 person-years",heatfull
+2021,Navy,Heat exhaustion,147,43,"cases per 100,000 person-years",heatfull
+2021,Air Force,Heat exhaustion,184,53.8,"cases per 100,000 person-years",heatfull
+2021,Marine Corps,Heat exhaustion,494,275.4,"cases per 100,000 person-years",heatfull
+2021,Space Force,Heat exhaustion,,,"cases per 100,000 person-years",heatfull
+2021,Coast Guard,Heat exhaustion,5,12.4,"cases per 100,000 person-years",heatfull
+2022,Army,Heat exhaustion,1033,224.3,"cases per 100,000 person-years",heatfull
+2022,Navy,Heat exhaustion,191,56.5,"cases per 100,000 person-years",heatfull
+2022,Air Force,Heat exhaustion,237,73.8,"cases per 100,000 person-years",heatfull
+2022,Marine Corps,Heat exhaustion,554,318.5,"cases per 100,000 person-years",heatfull
+2022,Space Force,Heat exhaustion,,,"cases per 100,000 person-years",heatfull
+2022,Coast Guard,Heat exhaustion,19,47.9,"cases per 100,000 person-years",heatfull
+2023,Army,Heat exhaustion,1179,263.1,"cases per 100,000 person-years",heatfull
+2023,Navy,Heat exhaustion,205,62.7,"cases per 100,000 person-years",heatfull
+2023,Air Force,Heat exhaustion,363,111,"cases per 100,000 person-years",heatfull
+2023,Marine Corps,Heat exhaustion,491,290.7,"cases per 100,000 person-years",heatfull
+2023,Space Force,Heat exhaustion,7,81.9,"cases per 100,000 person-years",heatfull
+2023,Coast Guard,Heat exhaustion,6,15.5,"cases per 100,000 person-years",heatfull
+2024,Army,Heat exhaustion,1211,278.4,"cases per 100,000 person-years",heatfull
+2024,Navy,Heat exhaustion,203,63.2,"cases per 100,000 person-years",heatfull
+2024,Air Force,Heat exhaustion,298,92.8,"cases per 100,000 person-years",heatfull
+2024,Marine Corps,Heat exhaustion,655,397.5,"cases per 100,000 person-years",heatfull
+2024,Space Force,Heat exhaustion,4,43.4,"cases per 100,000 person-years",heatfull
+2024,Coast Guard,Heat exhaustion,17,43.2,"cases per 100,000 person-years",heatfull
+2025,Army,Heat exhaustion,1223,274,"cases per 100,000 person-years",heatfull
+2025,Navy,Heat exhaustion,240,72.3,"cases per 100,000 person-years",heatfull
+2025,Air Force,Heat exhaustion,253,76.2,"cases per 100,000 person-years",heatfull
+2025,Marine Corps,Heat exhaustion,483,284,"cases per 100,000 person-years",heatfull
+2025,Space Force,Heat exhaustion,5,50.7,"cases per 100,000 person-years",heatfull
+2025,Coast Guard,Heat exhaustion,29,70.7,"cases per 100,000 person-years",heatfull
+2021,Army,Heat stroke,298,62.3,"cases per 100,000 person-years",heatfull
+2021,Navy,Heat stroke,25,7.3,"cases per 100,000 person-years",heatfull
+2021,Air Force,Heat stroke,27,7.9,"cases per 100,000 person-years",heatfull
+2021,Marine Corps,Heat stroke,110,61.3,"cases per 100,000 person-years",heatfull
+2021,Space Force,Heat stroke,,,"cases per 100,000 person-years",heatfull
+2021,Coast Guard,Heat stroke,0,0,"cases per 100,000 person-years",heatfull
+2022,Army,Heat stroke,225,48.8,"cases per 100,000 person-years",heatfull
+2022,Navy,Heat stroke,31,9.2,"cases per 100,000 person-years",heatfull
+2022,Air Force,Heat stroke,32,10,"cases per 100,000 person-years",heatfull
+2022,Marine Corps,Heat stroke,134,77,"cases per 100,000 person-years",heatfull
+2022,Space Force,Heat stroke,,,"cases per 100,000 person-years",heatfull
+2022,Coast Guard,Heat stroke,1,2.5,"cases per 100,000 person-years",heatfull
+2023,Army,Heat stroke,234,52.2,"cases per 100,000 person-years",heatfull
+2023,Navy,Heat stroke,36,11,"cases per 100,000 person-years",heatfull
+2023,Air Force,Heat stroke,20,6.1,"cases per 100,000 person-years",heatfull
+2023,Marine Corps,Heat stroke,114,67.5,"cases per 100,000 person-years",heatfull
+2023,Space Force,Heat stroke,0,0,"cases per 100,000 person-years",heatfull
+2023,Coast Guard,Heat stroke,3,7.7,"cases per 100,000 person-years",heatfull
+2024,Army,Heat stroke,247,56.8,"cases per 100,000 person-years",heatfull
+2024,Navy,Heat stroke,41,12.8,"cases per 100,000 person-years",heatfull
+2024,Air Force,Heat stroke,38,11.8,"cases per 100,000 person-years",heatfull
+2024,Marine Corps,Heat stroke,144,87.4,"cases per 100,000 person-years",heatfull
+2024,Space Force,Heat stroke,0,0,"cases per 100,000 person-years",heatfull
+2024,Coast Guard,Heat stroke,1,2.5,"cases per 100,000 person-years",heatfull
+2025,Army,Heat stroke,307,68.8,"cases per 100,000 person-years",heatfull
+2025,Navy,Heat stroke,32,9.6,"cases per 100,000 person-years",heatfull
+2025,Air Force,Heat stroke,19,5.7,"cases per 100,000 person-years",heatfull
+2025,Marine Corps,Heat stroke,158,92.9,"cases per 100,000 person-years",heatfull
+2025,Space Force,Heat stroke,1,10.1,"cases per 100,000 person-years",heatfull
+2025,Coast Guard,Heat stroke,1,2.4,"cases per 100,000 person-years",heatfull
