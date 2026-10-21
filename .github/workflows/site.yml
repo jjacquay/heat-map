@@ -1,4 +1,4 @@
-name: Validate and deploy site
+name: Validate site
 
 on:
   pull_request:
@@ -38,20 +38,3 @@ jobs:
                   if not (html.parent / ref).exists(): bad.append(f'{html}: {ref}')
           print('\n'.join(bad) or 'all local references resolve'); sys.exit(1 if bad else 0)
           PY
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-
-  deploy:
-    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-    needs: validate
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4

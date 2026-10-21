@@ -32,7 +32,7 @@ MapLibre GL JS · OpenFreeMap / OpenStreetMap · Natural Earth · U.S. Census ca
 
 ## Deploy
 
-`.github/workflows/site.yml` validates the data and scripts on every pull request and uploads `site/` as a Pages artifact; pushes to `main` deploy it with GitHub Pages. Pages must be enabled for the repository with **Source: GitHub Actions** (Settings → Pages).
+The repository is connected to Vercel. `vercel.json` serves `site/` as the output directory and runs `pipeline/validate.py` as the build step, so a deployment fails if the data checks fail. Every pull request gets a preview deployment (Vercel Authentication protects previews); `main` deploys to production. `.github/workflows/site.yml` also runs the data, script and link checks on every pull request.
 
 ## Reading rules
 
