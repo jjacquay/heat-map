@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Heat Map Heat Map · Field Atlas of Thermal Extremes</title>
+<meta name="description" content="Heat and cold illness, mapped from public records: military diagnoses, civilian transports and deaths, on open boundaries with satellite and reanalysis context.">
+<meta name="theme-color" content="#F4F0E7">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='12' cy='16' r='9' fill='%23C9482D'/%3E%3Ccircle cx='20' cy='16' r='9' fill='none' stroke='%23225E89' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" integrity="sha384-MinO0mNliZ3vwppuPOUnGa+iq619pfMhLVUXfC4LHwSCvF9H+6P/KO4Q7qBOYV5V" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/theme.css">
+<link rel="stylesheet" href="assets/atlas.css">
+<script defer src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js" integrity="sha384-SYKAG6cglRMN0RVvhNeBY0r3FYKNOJtznwA0v7B5Vp9tr31xAHsZC0DqkQ/pZDmj" crossorigin="anonymous"></script>
+<script defer src="assets/common.js"></script>
+<script defer src="assets/atlas.js"></script>
+</head>
+<body>
+<a class="skip" href="#map-controls">Skip to the map controls</a>
+<a class="skip" href="#record">Skip to the data table</a>
+<header class="topbar">
+  <a class="logo" href="./" aria-label="Heat Map Heat Map, home"><span class="w-heat">Heat Map</span><span class="slash" aria-hidden="true">/</span><span class="w-cold">Heat Map</span></a>
+  <nav class="topnav" aria-label="Main">
+    <a href="./" aria-current="page">Atlas</a>
+    <a href="story/">Story</a>
+    <a class="opt" href="#guide">Field guide</a>
+    <a class="opt" href="#sources">Sources</a>
+  </nav>
+</header>
+
+<main id="main">
+<section class="stage" aria-label="Atlas">
+  <div class="invite">
+    <div class="contours" aria-hidden="true"></div>
+    <div class="invite-inner">
+      <p class="eyebrow"><span class="tick"></span>A field atlas of thermal extremes</p>
+      <h1 class="wordmark"><span class="w-heat">Heat Map</span><span class="w-cold">Heat Map</span></h1>
+      <p class="subtitle">Heat and cold illness, mapped from public records.</p>
+      <p class="lede">Military diagnoses, emergency transports and death records, each counted its own way and pinned to the place that reported it. Nothing here is a risk score; every number traces back to its source.</p>
+      <div class="cta">
+        <button class="btn btn-primary" id="exploreBtn" type="button">Explore the atlas</button>
+        <a class="btn" href="story/">Read the story <span aria-hidden="true">→</span></a>
+      </div>
+      <h2 class="prompts-title">Start somewhere</h2>
+      <ul class="prompts" id="prompts" aria-label="Curated views">
+        <li><button type="button" class="prompt" data-prompt="training"><span class="prompt-icon heat" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M5.3 18.7l2.1-2.1M16.6 7.4l2.1-2.1"/></svg></span><span class="prompt-text"><b>Follow the training locations</b><span class="prompt-obs" data-obs="training">Military heat illness, 2021–2025</span></span></button></li>
+        <li><button type="button" class="prompt" data-prompt="cold"><span class="prompt-icon cold" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 2.5v19M3.8 7.25l16.4 9.5M3.8 16.75l16.4-9.5M9.5 4.5 12 7l2.5-2.5M9.5 19.5 12 17l2.5 2.5"/></svg></span><span class="prompt-text"><b>Explore cold injuries</b><span class="prompt-obs" data-obs="cold">Military cold injury, five seasons to June 2025</span></span></button></li>
+        <li><button type="button" class="prompt" data-prompt="japan"><span class="prompt-icon heat" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 18.5h16M6.5 18.5V9.5l5.5-4 5.5 4v9"/><path d="M10 18.5v-4.5h4v4.5"/></svg></span><span class="prompt-text"><b>See Japan by prefecture</b><span class="prompt-obs" data-obs="japan">Ambulance transports per 100,000 residents, 2025</span></span></button></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="mapstage" id="atlas">
+    <div class="map-controls" id="map-controls" role="group" aria-label="Map controls">
+      <div class="seg mode-seg" role="radiogroup" aria-label="Hazard">
+        <label class="seg-opt heat"><input type="radio" name="mode" value="heat" checked><span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.2"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3M5.3 5.3l2.1 2.1M16.6 16.6l2.1 2.1M5.3 18.7l2.1-2.1M16.6 7.4l2.1-2.1"/></svg>Heat</span></label>
+        <label class="seg-opt cold"><input type="radio" name="mode" value="cold"><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5v19M3.8 7.25l16.4 9.5M3.8 16.75l16.4-9.5M9.5 4.5 12 7l2.5-2.5M9.5 19.5 12 17l2.5 2.5"/></svg>Cold</span></label>
+      </div>
+      <label class="ctl ctl-ds"><span class="sr-only">Dataset</span><select id="dataset" aria-label="Dataset"></select></label>
+      <div class="ctl ctl-period" id="periodGroup" role="radiogroup" aria-label="Reporting period"></div>
+      <div class="ctl ctl-search">
+        <label for="search" class="sr-only">Find a place in this dataset</label>
+        <input type="search" id="search" placeholder="Find a place" autocomplete="off" aria-describedby="searchHint">
+        <span id="searchHint" class="sr-only">Filters the map and table. Press Enter to open the first match.</span>
+      </div>
+      <button type="button" class="btn btn-small btn-quiet ctl-more" id="moreBtn" aria-expanded="false" aria-controls="morePanel"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h10M18 7h2M4 17h4M12 17h8"/><circle cx="16" cy="7" r="2"/><circle cx="10" cy="17" r="2"/></svg>Filters &amp; layers</button>
+    </div>
+
+    <div class="more-panel" id="morePanel" hidden>
+      <div class="more-col">
+        <label for="region" class="mini-label">Geography</label>
+        <select id="region"></select>
+        <fieldset><legend class="mini-label">Map display</legend><div id="displayOptions" class="radio-list"></div></fieldset>
+      </div>
+      <div class="more-col">
+        <fieldset><legend class="mini-label">Context layers</legend>
+          <label class="check" id="footprintRow"><input type="checkbox" id="footprints" checked> <span>Installation boundaries<small>DoD MIRTA · context, not where cases occurred</small></span></label>
+          <label class="check" id="lstRow"><input type="checkbox" id="lst"> <span>Land-surface temperature<small id="lstSub">NASA MODIS Terra · monthly, daytime</small></span></label>
+          <div class="lst-opts" id="lstOpts" hidden>
+            <label for="lstMonth" class="mini-label">Month</label><input type="month" id="lstMonth">
+            <label for="lstOpacity" class="mini-label">Opacity</label><input type="range" id="lstOpacity" min="0.25" max="1" step="0.05" value="0.75">
+          </div>
+        </fieldset>
+        <p class="more-note" id="displayNote"></p>
+      </div>
+      <button type="button" class="close-x" id="moreClose" aria-label="Close filters">×</button>
+    </div>
+
+    <div id="map" role="region" aria-label="Map. Every mapped record is also listed in the table below the map." tabindex="-1"></div>
+    <div class="map-fallback" id="mapFallback" hidden></div>
+    <div class="map-banner" id="mapBanner" role="status" hidden></div>
+    <div class="empty-state" id="emptyState" hidden>
+      <p><b>No published observations in this selection.</b> Try a wider period or clear the search.</p>
+      <div><button type="button" class="btn btn-small" data-action="clear">Clear search &amp; filters</button> <a class="btn btn-small btn-quiet" href="#record">Open the table</a></div>
+    </div>
+
+    <div class="legend" id="legend" aria-label="Map legend">
+      <p class="legend-title" id="legendTitle"></p>
+      <div id="legendBody"></div>
+      <div id="legendLst" hidden></div>
+    </div>
+
+    <div class="map-tools">
+      <button type="button" class="tool" id="surprise" title="Pick a place from this selection"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 18c3-9 9-12 16-12M15 3l5 3-3 5"/><circle cx="5" cy="18" r="1.6"/></svg><span>Take me somewhere</span></button>
+      <button type="button" class="tool" id="backBtn" hidden><span aria-hidden="true">←</span><span>Back to previous place</span></button>
+      <button type="button" class="tool" id="resetBtn"><span aria-hidden="true">↺</span><span>Reset view</span></button>
+      <button type="button" class="tool" id="copyBtn"><span aria-hidden="true">⧉</span><span>Copy this view</span></button>
+    </div>
+    <p class="sr-only" role="status" aria-live="polite" id="announcer"></p>
+
+    <aside class="fieldnote" id="fieldnote" aria-labelledby="fnTitle" hidden tabindex="-1">
+      <div class="fn-grip" aria-hidden="true"></div>
+      <button type="button" class="close-x" id="fnClose" aria-label="Close field note">×</button>
+      <div id="fnBody"></div>
+    </aside>
+  </div>
+</section>
+
+<section class="section record" id="record" aria-labelledby="recordTitle">
+  <div class="section-head">
+    <p class="eyebrow"><span class="tick"></span>The record behind the map</p>
+    <h2 id="recordTitle">Every point, in plain rows.</h2>
+    <p id="recordSummary">Loading the published records…</p>
+    <div class="aside"><button type="button" class="btn btn-small" id="exportCsv">Download selection · CSV</button><button type="button" class="btn btn-small" id="exportGeo">Selection · GeoJSON</button><a class="btn btn-small btn-quiet" href="data/observations.csv" download>All records</a></div>
+  </div>
+  <div class="table-wrap" tabindex="0" role="region" aria-labelledby="recordTitle">
+    <table>
+      <caption class="sr-only" id="tableCaption"></caption>
+      <thead><tr><th scope="col">Place / reporting area</th><th scope="col">Period</th><th scope="col" class="r">Count</th><th scope="col" id="extraHead">Context</th><th scope="col">Measure</th><th scope="col">Source</th></tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+  <p class="table-note" id="unmapped"></p>
+</section>
+
+<section class="section trends" id="trends" aria-labelledby="trendTitle">
+  <div class="section-head">
+    <p class="eyebrow"><span class="tick"></span>Military time series · rates with a denominator</p>
+    <h2 id="trendTitle">The burden is not moving in one direction.</h2>
+    <p>Annual active-component incidence from the revised May 2026 MSMR tables. Unlike the location counts above, these are rates: cases per 100,000 person-years.</p>
+    <div class="aside"><a class="btn btn-small btn-quiet" href="data/military-trends.csv" download>Download series</a></div>
+  </div>
+  <div class="trend-controls">
+    <label class="mini-label" for="branch">Service</label><select id="branch"><option>Army</option><option>Marine Corps</option><option>Navy</option><option>Air Force</option><option>Space Force</option><option>Coast Guard</option></select>
+    <div class="seg seg-small" role="radiogroup" aria-label="Outcome"><label class="seg-opt"><input type="radio" name="outcome" value="Heat exhaustion" checked><span>Heat exhaustion</span></label><label class="seg-opt"><input type="radio" name="outcome" value="Heat stroke"><span>Heat stroke</span></label></div>
+  </div>
+  <figure class="trend-fig"><div id="trendChart"></div><figcaption>Source: <a href="#source-heatfull">MSMR 33(5), May 2026, Table 2</a>. Space Force reported separately from 2023; earlier gaps are “not separately reported”, not zero. Includes Coast Guard.</figcaption></figure>
+</section>
+
+<section class="section civil" aria-labelledby="civilTitle">
+  <div class="section-head">
+    <p class="eyebrow"><span class="tick"></span>The civilian picture</p>
+    <h2 id="civilTitle">Similar hazards. Different ways of counting.</h2>
+  </div>
+  <div class="civil-row">
+    <article><p class="big num">100,510</p><h3>Ambulance transports for heat illness</h3><p>Japan, 47 prefectures, May–September 2025. Transports, not diagnoses of heat stroke; about 36% needed admission.</p><button type="button" class="link-arrow as-link" data-goto="japan">Map Japan by prefecture</button></article>
+    <article><p class="big num">430</p><h3>Heat-related deaths, Maricopa County</h3><p>2025, down from 608 in 2024. Heat-caused and heat-contributed deaths investigated by the medical examiner, including non-residents.</p><button type="button" class="link-arrow as-link" data-goto="maricopa">See five years</button></article>
+    <article><p class="big num">25 <span class="ne">≠</span> 3,832</p><h3>Confirmed versus modeled, Spain</h3><p>Summer 2025. Confirmed heat-stroke deaths and statistically attributed deaths answer different questions; their ratio is not an underreporting rate.</p><button type="button" class="link-arrow as-link" data-goto="spain">Open both measures</button></article>
+  </div>
+  <a class="story-card" href="story/">
+    <span class="eyebrow">Long read · 13 chapters</span>
+    <strong>The Recorded and the Real</strong>
+    <span>Heat kills far more people than the records show. A scrollytelling essay by Jarah Jacquay, built on this atlas.</span>
+    <span class="link-arrow">Read the story</span>
+  </a>
+</section>
+
+<section class="section guide" id="guide" aria-labelledby="guideTitle">
+  <div class="section-head">
+    <p class="eyebrow"><span class="tick"></span>Field guide</p>
+    <h2 id="guideTitle">How to read this atlas.</h2>
+    <p>Independent research atlas built from public aggregate statistics and open GIS. No individual health records. No claim of DoD endorsement.</p>
+    <div class="aside"><a class="btn btn-small btn-quiet" href="data/methodology.md" download>Methods &amp; data dictionary</a><a class="btn btn-small btn-quiet" href="data/provenance.json" download>Download provenance</a></div>
+  </div>
+  <div class="guide-grid">
+    <details open><summary>Counts describe burden, not personal risk</summary><p>The military location tables have no installation population or training-exposure denominators. A large count can reflect population size, training volume, care access or reporting practice. It does not show that a place is less safe, and the map never converts these counts into rates.</p></details>
+    <details><summary>Anchors, footprints and grouped places</summary><p>Each marker is an approximate display anchor for the published reporting area: not a case coordinate. Grey outlines are DoD MIRTA installation boundaries, drawn for orientation; AFHSD counts are tied to where a case was diagnosed or reported, not to a fence line. A grouped area such as “MCB Camp Lejeune / Cherry Point” keeps one count and one marker even when several boundaries are drawn. Every U.S. anchor lies within 15 km of its footprint. MIRTA has no overseas boundaries (Okinawa, Germany, Korea), and Parris Island is not in the extract used, so only Beaufort is outlined for that group.</p></details>
+    <details><summary>Japan: a crude rate, precisely labelled</summary><p>“2025 transports per 100,000 residents (2024 population)” = FDMA ambulance transports for heat illness, 1 May–30 Sep 2025 (Table 4-2) ÷ Statistics Bureau population estimate, 1 Oct 2024 (Table 2) × 100,000. The 65+ rate uses the 65+ population (Table 3). It is not incidence: transports are counted per event by the prefecture's fire services, so repeat transports count again, and the report does not state residence, so visitors are probably included (our inference). A matched 2025 population table was not yet published on the Statistics Bureau site at build time. Rates are not age-adjusted.</p></details>
+    <details><summary>Overlapping windows, thresholds and zeros</summary><p>The 2020–2024 and 2021–2025 military heat tables overlap by four years: they are never added and their difference is not a trend. Installation renamings (Fort Polk → Fort Johnson, Fort Hood → Fort Cavazos) are kept as each table printed them. Eighteen cold locations are known only to have at least 25 cases over five seasons; they appear as hollow rings, are excluded from totals and the concentration display, and are never treated as 25 or zero. In India's state counts, a recorded zero is a recorded zero, not proof of no heat deaths; union territories are not mapped.</p></details>
+    <details><summary>Temperature layers are context, not cause</summary><p>The NASA layer is MODIS Terra monthly daytime land-surface temperature (GIBS layer <code>MODIS_Terra_L3_Land_Surface_Temp_Monthly_Day</code>, Web Mercator, monthly from March 2000): the skin temperature of the ground, often much hotter than the air. Transparent areas are no data. Field notes add ERA5 reanalysis air-temperature statistics for the ~25 km grid cell nearest each military anchor. None of these is WBGT, the measure behind military heat flags, and none describes conditions when a case occurred.</p></details>
+    <details><summary>Recorded and modeled stay apart</summary><p>Military diagnoses, civilian ambulance transports, recorded deaths and modeled attributable deaths are separate datasets with separate legends. The atlas never sums across them, never interpolates between them, and never applies an “undercount multiplier”. The 2023 DoD finding that 52.6% of diagnosed heat-stroke encounters had no matching reportable-event record describes one reporting system, not cases missing from every system.</p></details>
+    <details><summary>Known gaps</summary><p>Named military locations only, not every installation; 573 overseas heat cases (2021–2025) have no published place and are not mapped. U.S. county/state civilian outcomes from CDC Tracking are not imported: its public API answered some requests and throttled others (“too many non-token requests”) during the build, and its documentation could not be retrieved to confirm token terms, so no partial extract was published. Civilian cold outcomes, India denominators and monthly 2026 military reports are not yet included.</p></details>
+    <details><summary>Open tools and data</summary><p>MapLibre GL JS (BSD-3) on OpenFreeMap vector tiles (OpenStreetMap contributors, ODbL); Natural Earth boundaries (public domain; de facto boundaries, no position on disputed territory); U.S. Census cartographic boundaries; DoD MIRTA via the Esri U.S. Federal Datasets mirror; NASA GIBS; ERA5 (Copernicus, CC BY 4.0) via the Open-Meteo API. The Python pipeline records every download's URL, retrieval date and SHA-256 checksum.</p></details>
+  </div>
+</section>
+
+<section class="section sources" id="sources" aria-labelledby="sourcesTitle">
+  <div class="section-head">
+    <p class="eyebrow"><span class="tick"></span>Source register</p>
+    <h2 id="sourcesTitle">Go back to the primary evidence.</h2>
+    <p>“Extracted”: numbers are in the atlas. “Geometry”, “Derived” and “Live layer”: open GIS inputs. “Reviewed” supports interpretation; “Catalogued” is identified for future work, not loaded.</p>
+    <div class="aside"><a class="btn btn-small btn-quiet" href="data/sources.csv" download>Download register</a></div>
+  </div>
+  <label for="sourceSearch" class="sr-only">Search sources</label>
+  <input id="sourceSearch" class="source-search" type="search" placeholder="Search sources, places or status">
+  <div id="sourceList" class="source-list"></div>
+</section>
+</main>
+
+<footer class="foot">
+  <a class="logo" href="./"><span class="w-heat">Heat Map</span><span class="slash" aria-hidden="true">/</span><span class="w-cold">Heat Map</span></a>
+  <span>Research release 02 · data snapshot 20 Oct 2026 · GIS layers 21 Oct 2026</span>
+  <span>Public evidence. Clear denominators. Better questions.</span>
+</footer>
+<noscript><p style="padding:16px">The interactive map needs JavaScript. <a href="data/observations.csv">Download every record as CSV</a> or read <a href="data/methodology.md">the methods</a>.</p></noscript>
+</body>
+</html>

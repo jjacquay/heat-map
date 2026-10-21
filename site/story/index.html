@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>The Recorded and the Real · Heat Map Heat Map</title>
+<meta name="description" content="Heat kills far more people than the records show. A scrollytelling essay on heat illness, surveillance and prevention, built on the Heat Map Heat Map atlas.">
+<meta name="theme-color" content="#F4F0E7">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='12' cy='16' r='9' fill='%23C9482D'/%3E%3Ccircle cx='20' cy='16' r='9' fill='none' stroke='%23225E89' stroke-width='3'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.css" integrity="sha384-MinO0mNliZ3vwppuPOUnGa+iq619pfMhLVUXfC4LHwSCvF9H+6P/KO4Q7qBOYV5V" crossorigin="anonymous">
+<link rel="stylesheet" href="../assets/theme.css">
+<link rel="stylesheet" href="../assets/story.css">
+<script defer src="https://unpkg.com/maplibre-gl@4.7.1/dist/maplibre-gl.js" integrity="sha384-SYKAG6cglRMN0RVvhNeBY0r3FYKNOJtznwA0v7B5Vp9tr31xAHsZC0DqkQ/pZDmj" crossorigin="anonymous"></script>
+<script defer src="../assets/common.js"></script>
+<script defer src="../assets/story.js"></script>
+</head>
+<body class="story-page">
+<a class="skip" href="#ch-worldcup">Skip to the first chapter</a>
+<header class="topbar">
+  <a class="logo" href="../" aria-label="Heat Map Heat Map, atlas home"><span class="w-heat">Heat Map</span><span class="slash" aria-hidden="true">/</span><span class="w-cold">Heat Map</span></a>
+  <nav class="topnav" aria-label="Main">
+    <a href="../">Atlas</a>
+    <a href="./" aria-current="page">Story</a>
+    <a class="opt" href="../#guide">Field guide</a>
+    <a class="opt" href="#sources">Sources</a>
+  </nav>
+</header>
+
+<header class="hero">
+  <div class="contours" aria-hidden="true"></div>
+  <div class="hero-inner">
+    <p class="eyebrow"><span class="tick"></span>Heat · Health · Surveillance</p>
+    <h1>Heat kills far more people than the records show</h1>
+    <p class="dek">From the Sahel to the World Cup to American military bases, heat illness is mostly invisible in the systems built to count it. Prevention is taking hold where someone controls the schedule.</p>
+    <p class="byline">By <strong>Jarah Jacquay</strong> · October 2026 · <span class="muted">Independent analysis. Quotations come from the published reports and news coverage listed under Sources.</span></p>
+    <div class="key" aria-label="Chart key">
+      <span><i class="sw rec"></i>Recorded or confirmed</span>
+      <span><i class="sw est"></i>Estimated or modeled</span>
+      <span><i class="sw enc"></i>All diagnosed encounters</span>
+    </div>
+    <p class="hero-nav"><a class="btn btn-primary" href="#ch-worldcup">Begin reading <span aria-hidden="true">↓</span></a> <a class="btn" href="../">Open the atlas</a></p>
+  </div>
+</header>
+
+<main class="story" id="story">
+  <nav class="rail" aria-label="Chapters"><ol id="rail"></ol></nav>
+
+  <div class="steps" id="steps">
+    <section class="chapter" id="ch-worldcup" data-chart="worldcup">
+      <p class="place">United States, Canada, Mexico · June 2026</p>
+      <h2>The game began stopping itself</h2>
+      <p>Midway through each half of every match at the 2026 World Cup, referees halted play for three minutes so players could drink and cool down. FIFA made the breaks mandatory “regardless of temperatures,” according to the Associated Press, even in enclosed or air-conditioned stadiums. Douglas Casa of the Korey Stringer Institute said his group was suggesting breaks of “something like five or six minutes,” the AP reported.</p>
+      <p>Lost in the argument was how unusual the decision was. A governing body that sets the schedule had built rest into it before anyone collapsed.</p>
+    </section>
+
+    <section class="chapter" id="ch-global" data-chart="global">
+      <p class="place">Worldwide</p>
+      <h2>A toll counted mostly by models</h2>
+      <p>The 2025 Lancet Countdown on health and climate change estimated that heat-related deaths averaged 546,000 a year in 2012–21, and that the heat-related death rate had risen 23 percent since the 1990s. Heat exposure cost an estimated 640 billion potential working hours in 2024.</p>
+      <p>Almost none of those deaths appear in a register under the word “heat.”</p>
+    </section>
+
+    <section class="chapter" id="ch-gap" data-chart="gap" data-explore="spain">
+      <p class="place">The pattern</p>
+      <h2>The certified count is the floor</h2>
+      <p>Wherever both kinds of number exist, the recorded count is far smaller than the estimate. In the United States in 2023, 2,325 death certificates listed heat as a cause, according to provisional data analyzed in <i>JAMA</i>; a researcher applying a published excess-death method told the AP the true toll was likely about 11,000. Spain attributed 3,832 deaths to heat in summer 2025 and confirmed 25 as heat stroke. From 2018 to 2022, fewer than half of the U.S. military's diagnosed heat-stroke encounters had a matching report in its reportable-illness system; by 2025, 77.4 percent of heat-stroke cases were reported.</p>
+      <p>In India's 2024 hot season, provisional health ministry figures reported by the Press Trust of India counted at least 110 deaths and about 40,000 suspected heatstroke cases between March 1 and June 18.</p>
+    </section>
+
+    <section class="chapter" id="ch-sahel" data-chart="sahel" data-scene="sahel">
+      <p class="place">Bamako, Mali · April 2024</p>
+      <h2>Four days in the Sahel</h2>
+      <p>Gabriel Touré Hospital recorded 102 deaths from April 1 to 4, 2024, local media reported, as temperatures in the western city of Kayes reached 48.5 °C. In all of April 2023, the hospital had recorded 130. World Weather Attribution concluded that heat of that magnitude “would have been impossible” without the warming already observed. The causes of the hospital deaths were not reported.</p>
+      <p>In Karachi that June, the Edhi Foundation said it received 568 bodies in five days. The local government said 13 people had died of weather-related causes in the city that month.</p>
+    </section>
+
+    <section class="chapter" id="ch-qatar" data-chart="qatar" data-scene="qatar">
+      <p class="place">Qatar · 2009–2017</p>
+      <h2>Recorded as cardiac arrest</h2>
+      <p>A 2019 study in <i>Cardiology</i> examined deaths among Nepali migrant workers in Qatar. Cardiovascular causes accounted for 22 percent of deaths in the cool season and 58 percent in the hot season. The authors estimated that as many as 200 of 571 cardiovascular deaths might have been prevented with effective heat protection.</p>
+    </section>
+
+    <section class="chapter" id="ch-hajj" data-chart="hajj" data-scene="hajj">
+      <p class="place">Mecca · June 2024</p>
+      <h2>Outside the system</h2>
+      <p>Saudi authorities reported 1,301 deaths during the 2024 Hajj, amid high temperatures at the holy sites. Officials said 83 percent of the dead were not authorized to perform it and had walked long distances in direct sunlight without adequate shelter: people outside the permit system that organizes transport and shade for registered pilgrims.</p>
+    </section>
+
+    <section class="chapter" id="ch-europe" data-chart="europe" data-explore="spain">
+      <p class="place">32 European countries</p>
+      <h2>Europe counts carefully, and the numbers keep coming</h2>
+      <p>A study in <i>Nature Medicine</i> covering 654 regions estimated 67,873 heat-related deaths in Europe in summer 2022, 50,798 in 2023 and 62,775 in 2024. A separate rapid study of 854 cities, not peer reviewed and not comparable with that series, estimated about 24,400 heat deaths in summer 2025, about 16,500 of them attributable to climate change.</p>
+      <p>Santé publique France attributed more than 5,700 deaths to heat in summer 2025, and nine fatal workplace accidents were notified as possibly heat-related. Spain's daily mortality monitoring attributed 3,832, up 87.6 percent from 2024.</p>
+    </section>
+
+    <section class="chapter" id="ch-maricopa" data-chart="maricopa" data-scene="maricopa" data-explore="maricopa">
+      <p class="place">Maricopa County, Arizona · 2024</p>
+      <h2>Who dies</h2>
+      <p>The county Department of Public Health identified 608 heat-related deaths in 2024. Nearly half of those who died, 49 percent, were experiencing homelessness, and 77 percent of the deaths occurred outdoors. The people most exposed are those with the least control over where they are when the heat arrives.</p>
+    </section>
+
+    <section class="chapter" id="ch-bases" data-chart="bases" data-explore="bases">
+      <p class="place">U.S. military · 2021–2025</p>
+      <h2>Twenty-one locations, at home and abroad</h2>
+      <p>Commanders decide when recruits run, march and drill. If any institution can prevent heat illness by controlling the schedule, it is a military training command. Yet 21 locations recorded at least 100 heat illness cases from 2021 through 2025, led by Fort Benning with 1,737. Okinawa recorded 409, Fort Shafter in Hawaii 177, and Naval Air Station Pensacola 137.</p>
+      <p>In 2025 the active component recorded 518 heat strokes, and the heat-stroke rate rose for the second year in a row. Recruits had 3.5 times the heat-stroke rate of other enlisted members.</p>
+    </section>
+
+    <section class="chapter" id="ch-services" data-chart="services" data-explore="trends">
+      <p class="place">By service · 2021–2025</p>
+      <h2>Not a single-service problem</h2>
+      <p>The Army carries most of the cases. The Navy's total rose every year in the five-year window, from 172 to 272. The Marine Corps peaked in 2024.</p>
+    </section>
+
+    <section class="chapter" id="ch-flags" data-chart="flags">
+      <p class="place">Department of Defense report to Congress · 2023</p>
+      <h2>Below the warning</h2>
+      <p>The military's heat flags tell leaders when to cut back or stop. The Department's 2023 report to Congress found that from 1996 to 2019, 84 percent of heat illness among service members stationed in the continental United States occurred under conditions other than the black flag, and 20 percent on days with no flag at all, based on conditions reconstructed from nearby weather stations.</p>
+      <p>It also stated that “there is no standardized tracking or archiving of WBGT readings or heat stress flag conditions at U.S. military training locations.”</p>
+    </section>
+
+    <section class="chapter" id="ch-cold" data-chart="cold" data-scene="cold" data-explore="cold">
+      <p class="place">Alaska and beyond · 2020–2025</p>
+      <h2>The same logic, in the cold</h2>
+      <p>Active-duty cold weather injury rates rose 41.8 percent in the 2024–25 season, to 54.7 per 100,000 person-years. Over the five seasons through June 2025, Fort Wainwright and Joint Base Elmendorf-Richardson in Alaska recorded the most cases, in a region where, according to Defense Department coverage of its 2024 Arctic strategy, the services are to train more.</p>
+    </section>
+
+    <section class="chapter" id="ch-close" data-chart="close">
+      <p class="place">What the numbers show</p>
+      <h2>Preventable where someone owns the conditions</h2>
+      <p>Not every measure is rising: the active-duty heat exhaustion rate fell 9.1 percent in 2025 even as heat stroke climbed. Part of Europe's modeled growth reflects aging populations and better methods.</p>
+      <p>But the pattern holds. A football federation can change kickoff times. A pilgrimage authority can extend shade and medical coverage. A training command can move a run to dawn. What each needs first is a record of what the heat was when someone fell, kept long enough to learn from it.</p>
+    </section>
+  </div>
+
+  <div class="figwrap" aria-hidden="false">
+    <figure class="stage-fig" id="stageFig">
+      <div class="fig-map" id="figMap" aria-hidden="true"></div>
+      <div class="fig-body">
+        <p class="figtitle" id="figTitle"></p>
+        <p class="figsub" id="figSub"></p>
+        <div class="fig-chart" id="figChart" role="img"></div>
+        <figcaption id="figSrc"></figcaption>
+      </div>
+    </figure>
+  </div>
+</main>
+<p class="sr-only" role="status" aria-live="polite" id="announcer"></p>
+
+<section class="coda" id="about">
+  <h2>About the numbers</h2>
+  <p>Recorded counts come from death certificates, medical examiners, public health departments, hospital reports and reportable-illness systems. Estimates come from statistical models of excess or attributable mortality. The two answer different questions, and modeled and surveillance figures for the same country and year can differ by a factor of two or more. Compare within a chart row, never across rows. World Cup figures are pre-tournament projections, not measurements. Military counts are diagnoses among active-component service members reported in the Medical Surveillance Monthly Report; locations are the report's own groupings, and Okinawa is a single combined line. Military location counts have no population denominator and say nothing about individual risk.</p>
+  <p class="note">Corrections in this edition: the cold chart shows five-season totals (July 2020–June 2025), not the 2024–25 season; the Lancet death figure is a 2012–21 average; the Maricopa count is from the Department of Public Health; Karachi's figure came from the local government; India's 2024 deaths are provisional, not “confirmed”; the 2025 European rapid study is shown as separate from the 654-region series; the military's DRSi reporting share is dated (2018–22) with the 2025 figure added.</p>
+  <p class="bio">Jarah Jacquay is a registered nurse and environmental health writer based in Pensacola, Florida. He has been admitted to the Doctor of Public Health program in environmental health at the Johns Hopkins Bloomberg School of Public Health.</p>
+  <div class="coda-cta"><a class="btn btn-primary" href="../">Explore the atlas</a> <a class="btn" href="../#guide">How the atlas reads its sources</a></div>
+  <h3 id="sources">Sources</h3>
+  <ol class="src">
+    <li><a href="https://www.cfpublic.org/2026-06-18/fifa-hydration-breaks-have-sparked-criticism-but-what-do-they-actually-do" target="_blank" rel="noopener">Associated Press, “FIFA hydration breaks have sparked criticism,” 18 June 2026</a></li>
+    <li><a href="https://www.worldweatherattribution.org/climate-change-big-player-at-fifa-world-cup-2026/" target="_blank" rel="noopener">World Weather Attribution, World Cup 2026 heat analysis, 14 May 2026</a></li>
+    <li><a href="https://doi.org/10.1016/S0140-6736(25)01919-1" target="_blank" rel="noopener">2025 Lancet Countdown on health and climate change, indicator 1.1.5</a> (<a href="https://www.who.int/news/item/29-10-2025-climate-inaction-is-claiming-millions-of-lives-every-year--warns-new-lancet-countdown-report" target="_blank" rel="noopener">WHO release, 29 Oct 2025</a>)</li>
+    <li><a href="https://doi.org/10.1001/jama.2024.16386" target="_blank" rel="noopener">Howard et al., <i>JAMA</i> 2024: heat-related deaths in the US, 2023 (provisional)</a>; <a href="https://www.wlrn.org/health/2024-06-03/analysis-heat-deaths-us-2023" target="_blank" rel="noopener">Associated Press, 2023 excess-heat estimate</a></li>
+    <li><a href="https://www.sanidad.gob.es/gabinete/notasPrensa.do?id=6760" target="_blank" rel="noopener">Spain Ministry of Health, summer 2025 assessment, 2 Oct 2025</a></li>
+    <li><a href="https://www.tribuneindia.com/news/india/india-reports-110-deaths-40-000-heatstroke-cases-this-summer-632500/amp" target="_blank" rel="noopener">Press Trust of India, provisional 2024 heatstroke figures</a> (secondary; no primary release located)</li>
+    <li><a href="https://www.worldweatherattribution.org/extreme-sahel-heatwave-that-hit-highly-vulnerable-population-at-the-end-of-ramadan-would-not-have-occurred-without-climate-change" target="_blank" rel="noopener">World Weather Attribution, Sahel heat wave, 18 April 2024</a> (hospital figures cited from local media)</li>
+    <li><a href="https://bnnbloomberg.ca/karachi-sees-a-surge-in-deaths-as-heat-wave-sears-pakistan-1.2090293" target="_blank" rel="noopener">Bloomberg News, Karachi, 27 June 2024</a> (secondary)</li>
+    <li><a href="https://doi.org/10.1159/000500853" target="_blank" rel="noopener">Pradhan et al., <i>Cardiology</i> 2019;143:37–48</a></li>
+    <li><a href="https://gulfnews.com/world/gulf/saudi/hajj-2024-saudi-arabia-says-1301-deaths-mostly-unregistered-pilgrims-1.1719169731102" target="_blank" rel="noopener">Saudi Press Agency via Gulf News, Hajj 2024, 23 June 2024</a></li>
+    <li><a href="https://doi.org/10.1038/s41591-025-03954-7" target="_blank" rel="noopener"><i>Nature Medicine</i> 2025, heat-related mortality in Europe, 2022–2024</a></li>
+    <li><a href="https://www.lshtm.ac.uk/newsevents/news/2025/climate-change-driven-summer-heat-caused-16500-additional-deaths-across-europe" target="_blank" rel="noopener">LSHTM and Imperial College London, summer 2025 rapid study (not peer reviewed)</a></li>
+    <li><a href="https://www.santepubliquefrance.fr/climat/fortes-chaleurs-canicule/bulletin-national/chaleur-et-sante-bilan-de-lete-2025" target="_blank" rel="noopener">Santé publique France, summer 2025 heat and health review</a></li>
+    <li><a href="https://www.maricopa.gov/ArchiveCenter/ViewFile/Item/5934" target="_blank" rel="noopener">Maricopa County Department of Public Health, 2024 annual heat report</a></li>
+    <li><a href="https://health.mil/Reference-Center/Reports/2026/05/01/MSMR-Vol-33-No-5-May-2026" target="_blank" rel="noopener">Medical Surveillance Monthly Report 33(5), May 2026: heat illness, 2021–2025 (Tables 2–3)</a></li>
+    <li><a href="https://www.health.mil/Reference-Center/Reports/2023/11/28/Heat-Illness-Report" target="_blank" rel="noopener">Department of Defense, Heat Illness Report to Congress, November 2023</a></li>
+    <li><a href="https://health.mil/Reference-Center/Reports/2025/12/01/MSMR-Vol-32-No-12-Dec-2025" target="_blank" rel="noopener">Medical Surveillance Monthly Report 32(12), December 2025: cold weather injuries</a></li>
+  </ol>
+</section>
+
+<footer class="foot">
+  <a class="logo" href="../"><span class="w-heat">Heat Map</span><span class="slash" aria-hidden="true">/</span><span class="w-cold">Heat Map</span></a>
+  <span>Story edition 2 · October 2026</span>
+  <a href="../">Back to the atlas</a>
+</footer>
+</body>
+</html>

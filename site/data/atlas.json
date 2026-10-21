@@ -1,0 +1,5832 @@
+{
+  "updated": "2026-10-20",
+  "records": [
+    {
+      "id": "r1",
+      "layer": "military-heat",
+      "name": "Fort Benning, GA",
+      "count": 1737,
+      "lower_bound": null,
+      "lat": 32.36,
+      "lon": -84.95,
+      "period": "2021–2025",
+      "source": "heat25",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r2",
+      "layer": "military-heat",
+      "name": "Fort Benning, GA",
+      "count": 1839,
+      "lower_bound": null,
+      "lat": 32.36,
+      "lon": -84.95,
+      "period": "2020–2024",
+      "source": "heat24",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r3",
+      "layer": "military-heat",
+      "name": "Fort Bragg, NC",
+      "count": 942,
+      "lower_bound": null,
+      "lat": 35.14,
+      "lon": -79.0,
+      "period": "2021–2025",
+      "source": "heat25",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r4",
+      "layer": "military-heat",
+      "name": "Fort Bragg, NC",
+      "count": 833,
+      "lower_bound": null,
+      "lat": 35.14,
+      "lon": -79.0,
+      "period": "2020–2024",
+      "source": "heat24",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r5",
+      "layer": "military-heat",
+      "name": "MCB Camp Lejeune / Cherry Point, NC",
+      "count": 829,
+      "lower_bound": null,
+      "lat": 34.8,
+      "lon": -77.1,
+      "period": "2021–2025",
+      "source": "heat25",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator. Combined reporting area; marker represents the group, not an individual facility."
+    },
+    {
+      "id": "r6",
+      "layer": "military-heat",
+      "name": "MCB Camp Lejeune / Cherry Point, NC",
+      "count": 894,
+      "lower_bound": null,
+      "lat": 34.8,
+      "lon": -77.1,
+      "period": "2020–2024",
+      "source": "heat24",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator. Combined reporting area; marker represents the group, not an individual facility."
+    },
+    {
+      "id": "r7",
+      "layer": "military-heat",
+      "name": "JB San Antonio, TX",
+      "count": 751,
+      "lower_bound": null,
+      "lat": 29.42,
+      "lon": -98.62,
+      "period": "2021–2025",
+      "source": "heat25",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator. Combined reporting area; marker represents the group, not an individual facility."
+    },
+    {
+      "id": "r8",
+      "layer": "military-heat",
+      "name": "JB San Antonio, TX",
+      "count": 656,
+      "lower_bound": null,
+      "lat": 29.42,
+      "lon": -98.62,
+      "period": "2020–2024",
+      "source": "heat24",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator. Combined reporting area; marker represents the group, not an individual facility."
+    },
+    {
+      "id": "r9",
+      "layer": "military-heat",
+      "name": "MCRD Parris Island / Beaufort, SC",
+      "count": 679,
+      "lower_bound": null,
+      "lat": 32.35,
+      "lon": -80.69,
+      "period": "2021–2025",
+      "source": "heat25",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator. Combined reporting area; marker represents the group, not an individual facility."
+    },
+    {
+      "id": "r10",
+      "layer": "military-heat",
+      "name": "MCRD Parris Island / Beaufort, SC",
+      "count": 642,
+      "lower_bound": null,
+      "lat": 32.35,
+      "lon": -80.69,
+      "period": "2020–2024",
+      "source": "heat24",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator. Combined reporting area; marker represents the group, not an individual facility."
+    },
+    {
+      "id": "r11",
+      "layer": "military-heat",
+      "name": "Fort Campbell, KY",
+      "count": 640,
+      "lower_bound": null,
+      "lat": 36.66,
+      "lon": -87.46,
+      "period": "2021–2025",
+      "source": "heat25",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r12",
+      "layer": "military-heat",
+      "name": "Fort Campbell, KY",
+      "count": 606,
+      "lower_bound": null,
+      "lat": 36.66,
+      "lon": -87.46,
+      "period": "2020–2024",
+      "source": "heat24",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r13",
+      "layer": "military-heat",
+      "name": "Fort Polk, LA",
+      "count": 533,
+      "lower_bound": null,
+      "lat": 31.05,
+      "lon": -93.21,
+      "period": "2021–2025",
+      "source": "heat25",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r14",
+      "layer": "military-heat",
+      "name": "Fort Johnson, LA",
+      "count": 475,
+      "lower_bound": null,
+      "lat": 31.05,
+      "lon": -93.21,
+      "period": "2020–2024",
+      "source": "heat24",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r15",
+      "layer": "military-heat",
+      "name": "MCRD San Diego / NB San Diego, CA",
+      "count": 485,
+      "lower_bound": null,
+      "lat": 32.71,
+      "lon": -117.17,
+      "period": "2021–2025",
+      "source": "heat25",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator. Combined reporting area; marker represents the group, not an individual facility."
+    },
+    {
+      "id": "r16",
+      "layer": "military-heat",
+      "name": "MCRD San Diego / NB San Diego, CA",
+      "count": 473,
+      "lower_bound": null,
+      "lat": 32.71,
+      "lon": -117.17,
+      "period": "2020–2024",
+      "source": "heat24",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator. Combined reporting area; marker represents the group, not an individual facility."
+    },
+    {
+      "id": "r17",
+      "layer": "military-heat",
+      "name": "Fort Hood, TX",
+      "count": 452,
+      "lower_bound": null,
+      "lat": 31.13,
+      "lon": -97.78,
+      "period": "2021–2025",
+      "source": "heat25",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r18",
+      "layer": "military-heat",
+      "name": "Fort Cavazos, TX",
+      "count": 425,
+      "lower_bound": null,
+      "lat": 31.13,
+      "lon": -97.78,
+      "period": "2020–2024",
+      "source": "heat24",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r19",
+      "layer": "military-heat",
+      "name": "Okinawa, Japan",
+      "count": 409,
+      "lower_bound": null,
+      "lat": 26.5,
+      "lon": 127.95,
+      "period": "2021–2025",
+      "source": "heat25",
+      "region": "Overseas",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator. Combined reporting area; marker represents the group, not an individual facility."
+    },
+    {
+      "id": "r20",
+      "layer": "military-heat",
+      "name": "Okinawa, Japan",
+      "count": 344,
+      "lower_bound": null,
+      "lat": 26.5,
+      "lon": 127.95,
+      "period": "2020–2024",
+      "source": "heat24",
+      "region": "Overseas",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator. Combined reporting area; marker represents the group, not an individual facility."
+    },
+    {
+      "id": "r21",
+      "layer": "military-heat",
+      "name": "Fort Jackson, SC",
+      "count": 328,
+      "lower_bound": null,
+      "lat": 34.04,
+      "lon": -80.87,
+      "period": "2021–2025",
+      "source": "heat25",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r22",
+      "layer": "military-heat",
+      "name": "Fort Jackson, SC",
+      "count": 318,
+      "lower_bound": null,
+      "lat": 34.04,
+      "lon": -80.87,
+      "period": "2020–2024",
+      "source": "heat24",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r23",
+      "layer": "military-heat",
+      "name": "MCB Quantico, VA",
+      "count": 316,
+      "lower_bound": null,
+      "lat": 38.52,
+      "lon": -77.31,
+      "period": "2021–2025",
+      "source": "heat25",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r24",
+      "layer": "military-heat",
+      "name": "MCB Quantico, VA",
+      "count": 330,
+      "lower_bound": null,
+      "lat": 38.52,
+      "lon": -77.31,
+      "period": "2020–2024",
+      "source": "heat24",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r25",
+      "layer": "military-heat",
+      "name": "MCB Camp Pendleton, CA",
+      "count": 313,
+      "lower_bound": null,
+      "lat": 33.3,
+      "lon": -117.35,
+      "period": "2021–2025",
+      "source": "heat25",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r26",
+      "layer": "military-heat",
+      "name": "MCB Camp Pendleton, CA",
+      "count": 333,
+      "lower_bound": null,
+      "lat": 33.3,
+      "lon": -117.35,
+      "period": "2020–2024",
+      "source": "heat24",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r27",
+      "layer": "military-heat",
+      "name": "Fort Sill, OK",
+      "count": 290,
+      "lower_bound": null,
+      "lat": 34.65,
+      "lon": -98.4,
+      "period": "2021–2025",
+      "source": "heat25",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r28",
+      "layer": "military-heat",
+      "name": "Fort Sill, OK",
+      "count": 287,
+      "lower_bound": null,
+      "lat": 34.65,
+      "lon": -98.4,
+      "period": "2020–2024",
+      "source": "heat24",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r29",
+      "layer": "military-heat",
+      "name": "Fort Stewart, GA",
+      "count": 180,
+      "lower_bound": null,
+      "lat": 31.87,
+      "lon": -81.61,
+      "period": "2021–2025",
+      "source": "heat25",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r30",
+      "layer": "military-heat",
+      "name": "Fort Stewart, GA",
+      "count": 155,
+      "lower_bound": null,
+      "lat": 31.87,
+      "lon": -81.61,
+      "period": "2020–2024",
+      "source": "heat24",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r31",
+      "layer": "military-heat",
+      "name": "Fort Shafter, HI",
+      "count": 177,
+      "lower_bound": null,
+      "lat": 21.34,
+      "lon": -157.89,
+      "period": "2021–2025",
+      "source": "heat25",
+      "region": "Alaska / Hawaii",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r32",
+      "layer": "military-heat",
+      "name": "Fort Shafter, HI",
+      "count": 159,
+      "lower_bound": null,
+      "lat": 21.34,
+      "lon": -157.89,
+      "period": "2020–2024",
+      "source": "heat24",
+      "region": "Alaska / Hawaii",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r33",
+      "layer": "military-heat",
+      "name": "Twentynine Palms, CA",
+      "count": 177,
+      "lower_bound": null,
+      "lat": 34.23,
+      "lon": -116.05,
+      "period": "2021–2025",
+      "source": "heat25",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r34",
+      "layer": "military-heat",
+      "name": "Twentynine Palms, CA",
+      "count": 183,
+      "lower_bound": null,
+      "lat": 34.23,
+      "lon": -116.05,
+      "period": "2020–2024",
+      "source": "heat24",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r35",
+      "layer": "military-heat",
+      "name": "Fort Irwin, CA",
+      "count": 175,
+      "lower_bound": null,
+      "lat": 35.26,
+      "lon": -116.68,
+      "period": "2021–2025",
+      "source": "heat25",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r36",
+      "layer": "military-heat",
+      "name": "Fort Irwin, CA",
+      "count": 197,
+      "lower_bound": null,
+      "lat": 35.26,
+      "lon": -116.68,
+      "period": "2020–2024",
+      "source": "heat24",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r37",
+      "layer": "military-heat",
+      "name": "Fort Leonard Wood, MO",
+      "count": 162,
+      "lower_bound": null,
+      "lat": 37.76,
+      "lon": -92.13,
+      "period": "2021–2025",
+      "source": "heat25",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r38",
+      "layer": "military-heat",
+      "name": "Fort Leonard Wood, MO",
+      "count": 139,
+      "lower_bound": null,
+      "lat": 37.76,
+      "lon": -92.13,
+      "period": "2020–2024",
+      "source": "heat24",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r39",
+      "layer": "military-heat",
+      "name": "NAS Pensacola, FL",
+      "count": 137,
+      "lower_bound": null,
+      "lat": 30.35,
+      "lon": -87.29,
+      "period": "2021–2025",
+      "source": "heat25",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r40",
+      "layer": "military-heat",
+      "name": "NAS Pensacola, FL",
+      "count": 105,
+      "lower_bound": null,
+      "lat": 30.35,
+      "lon": -87.29,
+      "period": "2020–2024",
+      "source": "heat24",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r41",
+      "layer": "military-heat",
+      "name": "Fort Bliss, TX",
+      "count": 127,
+      "lower_bound": null,
+      "lat": 31.81,
+      "lon": -106.42,
+      "period": "2021–2025",
+      "source": "heat25",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r42",
+      "layer": "military-heat",
+      "name": "Fort Bliss, TX",
+      "count": 128,
+      "lower_bound": null,
+      "lat": 31.81,
+      "lon": -106.42,
+      "period": "2020–2024",
+      "source": "heat24",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r43",
+      "layer": "military-heat",
+      "name": "NSA Annapolis, MD",
+      "count": 103,
+      "lower_bound": null,
+      "lat": 38.98,
+      "lon": -76.48,
+      "period": "2020–2024",
+      "source": "heat24",
+      "region": "CONUS",
+      "measure": "Heat illness cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "One case per person per year; five-year cumulative count at diagnosis/report location. No installation population denominator."
+    },
+    {
+      "id": "r44",
+      "layer": "military-cold",
+      "name": "Fort Wainwright, AK",
+      "count": 335,
+      "lower_bound": null,
+      "lat": 64.83,
+      "lon": -147.62,
+      "period": "Jul 2020–Jun 2025",
+      "source": "cold25",
+      "region": "Alaska / Hawaii",
+      "measure": "Cold injury cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Five-season total. Exact total stated in source narrative."
+    },
+    {
+      "id": "r45",
+      "layer": "military-cold",
+      "name": "JB Elmendorf-Richardson, AK",
+      "count": 209,
+      "lower_bound": null,
+      "lat": 61.26,
+      "lon": -149.68,
+      "period": "Jul 2020–Jun 2025",
+      "source": "cold25",
+      "region": "Alaska / Hawaii",
+      "measure": "Cold injury cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Five-season total. Exact total stated in source narrative."
+    },
+    {
+      "id": "r46",
+      "layer": "military-cold",
+      "name": "Camp Lejeune, NC",
+      "count": 115,
+      "lower_bound": null,
+      "lat": 34.67,
+      "lon": -77.36,
+      "period": "Jul 2020–Jun 2025",
+      "source": "cold25",
+      "region": "CONUS",
+      "measure": "Cold injury cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Five-season total. Exact total stated in source narrative."
+    },
+    {
+      "id": "r47",
+      "layer": "military-cold",
+      "name": "Fort Carson, CO",
+      "count": 104,
+      "lower_bound": null,
+      "lat": 38.74,
+      "lon": -104.79,
+      "period": "Jul 2020–Jun 2025",
+      "source": "cold25",
+      "region": "CONUS",
+      "measure": "Cold injury cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Five-season total. Exact total stated in source narrative."
+    },
+    {
+      "id": "r48",
+      "layer": "military-cold",
+      "name": "USAG Bavaria, Germany",
+      "count": 85,
+      "lower_bound": null,
+      "lat": 49.7,
+      "lon": 11.92,
+      "period": "Jul 2020–Jun 2025",
+      "source": "cold25",
+      "region": "Overseas",
+      "measure": "Cold injury cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Five-season total. Exact total stated in source narrative."
+    },
+    {
+      "id": "r49",
+      "layer": "military-cold",
+      "name": "Fort Drum, NY",
+      "count": null,
+      "lower_bound": 25,
+      "lat": 44.05,
+      "lon": -75.76,
+      "period": "Jul 2020–Jun 2025",
+      "source": "cold25",
+      "region": "CONUS",
+      "measure": "Cold injury cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Five-season total. Figure 4 inclusion establishes ≥25 cases; exact five-season count not published in the extracted text. Seasonal bars have not been digitized."
+    },
+    {
+      "id": "r50",
+      "layer": "military-cold",
+      "name": "MCRD San Diego, CA",
+      "count": null,
+      "lower_bound": 25,
+      "lat": 32.74,
+      "lon": -117.2,
+      "period": "Jul 2020–Jun 2025",
+      "source": "cold25",
+      "region": "CONUS",
+      "measure": "Cold injury cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Five-season total. Figure 4 inclusion establishes ≥25 cases; exact five-season count not published in the extracted text. Seasonal bars have not been digitized."
+    },
+    {
+      "id": "r51",
+      "layer": "military-cold",
+      "name": "Fort Benning, GA",
+      "count": null,
+      "lower_bound": 25,
+      "lat": 32.36,
+      "lon": -84.95,
+      "period": "Jul 2020–Jun 2025",
+      "source": "cold25",
+      "region": "CONUS",
+      "measure": "Cold injury cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Five-season total. Figure 4 inclusion establishes ≥25 cases; exact five-season count not published in the extracted text. Seasonal bars have not been digitized."
+    },
+    {
+      "id": "r52",
+      "layer": "military-cold",
+      "name": "Fort Campbell, KY",
+      "count": null,
+      "lower_bound": 25,
+      "lat": 36.66,
+      "lon": -87.46,
+      "period": "Jul 2020–Jun 2025",
+      "source": "cold25",
+      "region": "CONUS",
+      "measure": "Cold injury cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Five-season total. Figure 4 inclusion establishes ≥25 cases; exact five-season count not published in the extracted text. Seasonal bars have not been digitized."
+    },
+    {
+      "id": "r53",
+      "layer": "military-cold",
+      "name": "Fort Cavazos, TX",
+      "count": null,
+      "lower_bound": 25,
+      "lat": 31.13,
+      "lon": -97.78,
+      "period": "Jul 2020–Jun 2025",
+      "source": "cold25",
+      "region": "CONUS",
+      "measure": "Cold injury cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Five-season total. Figure 4 inclusion establishes ≥25 cases; exact five-season count not published in the extracted text. Seasonal bars have not been digitized."
+    },
+    {
+      "id": "r54",
+      "layer": "military-cold",
+      "name": "Fort Bragg, NC",
+      "count": null,
+      "lower_bound": 25,
+      "lat": 35.14,
+      "lon": -79.0,
+      "period": "Jul 2020–Jun 2025",
+      "source": "cold25",
+      "region": "CONUS",
+      "measure": "Cold injury cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Five-season total. Figure 4 inclusion establishes ≥25 cases; exact five-season count not published in the extracted text. Seasonal bars have not been digitized."
+    },
+    {
+      "id": "r55",
+      "layer": "military-cold",
+      "name": "Fort Johnson, LA",
+      "count": null,
+      "lower_bound": 25,
+      "lat": 31.05,
+      "lon": -93.21,
+      "period": "Jul 2020–Jun 2025",
+      "source": "cold25",
+      "region": "CONUS",
+      "measure": "Cold injury cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Five-season total. Figure 4 inclusion establishes ≥25 cases; exact five-season count not published in the extracted text. Seasonal bars have not been digitized."
+    },
+    {
+      "id": "r56",
+      "layer": "military-cold",
+      "name": "JB Lewis-McChord, WA",
+      "count": null,
+      "lower_bound": 25,
+      "lat": 47.1,
+      "lon": -122.58,
+      "period": "Jul 2020–Jun 2025",
+      "source": "cold25",
+      "region": "CONUS",
+      "measure": "Cold injury cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Five-season total. Figure 4 inclusion establishes ≥25 cases; exact five-season count not published in the extracted text. Seasonal bars have not been digitized."
+    },
+    {
+      "id": "r57",
+      "layer": "military-cold",
+      "name": "Camp Pendleton, CA",
+      "count": null,
+      "lower_bound": 25,
+      "lat": 33.3,
+      "lon": -117.35,
+      "period": "Jul 2020–Jun 2025",
+      "source": "cold25",
+      "region": "CONUS",
+      "measure": "Cold injury cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Five-season total. Figure 4 inclusion establishes ≥25 cases; exact five-season count not published in the extracted text. Seasonal bars have not been digitized."
+    },
+    {
+      "id": "r58",
+      "layer": "military-cold",
+      "name": "Fort Leonard Wood, MO",
+      "count": null,
+      "lower_bound": 25,
+      "lat": 37.76,
+      "lon": -92.13,
+      "period": "Jul 2020–Jun 2025",
+      "source": "cold25",
+      "region": "CONUS",
+      "measure": "Cold injury cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Five-season total. Figure 4 inclusion establishes ≥25 cases; exact five-season count not published in the extracted text. Seasonal bars have not been digitized."
+    },
+    {
+      "id": "r59",
+      "layer": "military-cold",
+      "name": "Fort Riley, KS",
+      "count": null,
+      "lower_bound": 25,
+      "lat": 39.1,
+      "lon": -96.81,
+      "period": "Jul 2020–Jun 2025",
+      "source": "cold25",
+      "region": "CONUS",
+      "measure": "Cold injury cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Five-season total. Figure 4 inclusion establishes ≥25 cases; exact five-season count not published in the extracted text. Seasonal bars have not been digitized."
+    },
+    {
+      "id": "r60",
+      "layer": "military-cold",
+      "name": "MCB Quantico, VA",
+      "count": null,
+      "lower_bound": 25,
+      "lat": 38.52,
+      "lon": -77.31,
+      "period": "Jul 2020–Jun 2025",
+      "source": "cold25",
+      "region": "CONUS",
+      "measure": "Cold injury cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Five-season total. Figure 4 inclusion establishes ≥25 cases; exact five-season count not published in the extracted text. Seasonal bars have not been digitized."
+    },
+    {
+      "id": "r61",
+      "layer": "military-cold",
+      "name": "Fairchild AFB, WA",
+      "count": null,
+      "lower_bound": 25,
+      "lat": 47.62,
+      "lon": -117.65,
+      "period": "Jul 2020–Jun 2025",
+      "source": "cold25",
+      "region": "CONUS",
+      "measure": "Cold injury cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Five-season total. Figure 4 inclusion establishes ≥25 cases; exact five-season count not published in the extracted text. Seasonal bars have not been digitized."
+    },
+    {
+      "id": "r62",
+      "layer": "military-cold",
+      "name": "Minot AFB, ND",
+      "count": null,
+      "lower_bound": 25,
+      "lat": 48.42,
+      "lon": -101.36,
+      "period": "Jul 2020–Jun 2025",
+      "source": "cold25",
+      "region": "CONUS",
+      "measure": "Cold injury cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Five-season total. Figure 4 inclusion establishes ≥25 cases; exact five-season count not published in the extracted text. Seasonal bars have not been digitized."
+    },
+    {
+      "id": "r63",
+      "layer": "military-cold",
+      "name": "Fort Bliss, TX",
+      "count": null,
+      "lower_bound": 25,
+      "lat": 31.81,
+      "lon": -106.42,
+      "period": "Jul 2020–Jun 2025",
+      "source": "cold25",
+      "region": "CONUS",
+      "measure": "Cold injury cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Five-season total. Figure 4 inclusion establishes ≥25 cases; exact five-season count not published in the extracted text. Seasonal bars have not been digitized."
+    },
+    {
+      "id": "r64",
+      "layer": "military-cold",
+      "name": "JB San Antonio, TX",
+      "count": null,
+      "lower_bound": 25,
+      "lat": 29.42,
+      "lon": -98.62,
+      "period": "Jul 2020–Jun 2025",
+      "source": "cold25",
+      "region": "CONUS",
+      "measure": "Cold injury cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Five-season total. Figure 4 inclusion establishes ≥25 cases; exact five-season count not published in the extracted text. Seasonal bars have not been digitized."
+    },
+    {
+      "id": "r65",
+      "layer": "military-cold",
+      "name": "USAG Humphreys, South Korea",
+      "count": null,
+      "lower_bound": 25,
+      "lat": 36.97,
+      "lon": 127.03,
+      "period": "Jul 2020–Jun 2025",
+      "source": "cold25",
+      "region": "Overseas",
+      "measure": "Cold injury cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Five-season total. Figure 4 inclusion establishes ≥25 cases; exact five-season count not published in the extracted text. Seasonal bars have not been digitized."
+    },
+    {
+      "id": "r66",
+      "layer": "military-cold",
+      "name": "MCRD Parris Island, SC",
+      "count": null,
+      "lower_bound": 25,
+      "lat": 32.35,
+      "lon": -80.69,
+      "period": "Jul 2020–Jun 2025",
+      "source": "cold25",
+      "region": "CONUS",
+      "measure": "Cold injury cases",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Five-season total. Figure 4 inclusion establishes ≥25 cases; exact five-season count not published in the extracted text. Seasonal bars have not been digitized."
+    },
+    {
+      "id": "r67",
+      "layer": "japan",
+      "name": "Hokkaido prefecture, Japan",
+      "count": 2727,
+      "lower_bound": null,
+      "lat": 43.06,
+      "lon": 141.35,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r68",
+      "layer": "japan",
+      "name": "Aomori prefecture, Japan",
+      "count": 926,
+      "lower_bound": null,
+      "lat": 40.82,
+      "lon": 140.74,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r69",
+      "layer": "japan",
+      "name": "Iwate prefecture, Japan",
+      "count": 998,
+      "lower_bound": null,
+      "lat": 39.7,
+      "lon": 141.15,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r70",
+      "layer": "japan",
+      "name": "Miyagi prefecture, Japan",
+      "count": 1799,
+      "lower_bound": null,
+      "lat": 38.27,
+      "lon": 140.87,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r71",
+      "layer": "japan",
+      "name": "Akita prefecture, Japan",
+      "count": 699,
+      "lower_bound": null,
+      "lat": 39.72,
+      "lon": 140.1,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r72",
+      "layer": "japan",
+      "name": "Yamagata prefecture, Japan",
+      "count": 853,
+      "lower_bound": null,
+      "lat": 38.24,
+      "lon": 140.36,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r73",
+      "layer": "japan",
+      "name": "Fukushima prefecture, Japan",
+      "count": 1698,
+      "lower_bound": null,
+      "lat": 37.75,
+      "lon": 140.47,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r74",
+      "layer": "japan",
+      "name": "Ibaraki prefecture, Japan",
+      "count": 2442,
+      "lower_bound": null,
+      "lat": 36.37,
+      "lon": 140.47,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r75",
+      "layer": "japan",
+      "name": "Tochigi prefecture, Japan",
+      "count": 1514,
+      "lower_bound": null,
+      "lat": 36.57,
+      "lon": 139.88,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r76",
+      "layer": "japan",
+      "name": "Gunma prefecture, Japan",
+      "count": 1958,
+      "lower_bound": null,
+      "lat": 36.39,
+      "lon": 139.06,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r77",
+      "layer": "japan",
+      "name": "Saitama prefecture, Japan",
+      "count": 6141,
+      "lower_bound": null,
+      "lat": 35.86,
+      "lon": 139.65,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r78",
+      "layer": "japan",
+      "name": "Chiba prefecture, Japan",
+      "count": 4292,
+      "lower_bound": null,
+      "lat": 35.61,
+      "lon": 140.12,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r79",
+      "layer": "japan",
+      "name": "Tokyo prefecture, Japan",
+      "count": 9315,
+      "lower_bound": null,
+      "lat": 35.68,
+      "lon": 139.69,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r80",
+      "layer": "japan",
+      "name": "Kanagawa prefecture, Japan",
+      "count": 4972,
+      "lower_bound": null,
+      "lat": 35.44,
+      "lon": 139.64,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r81",
+      "layer": "japan",
+      "name": "Niigata prefecture, Japan",
+      "count": 1514,
+      "lower_bound": null,
+      "lat": 37.9,
+      "lon": 139.02,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r82",
+      "layer": "japan",
+      "name": "Toyama prefecture, Japan",
+      "count": 716,
+      "lower_bound": null,
+      "lat": 36.7,
+      "lon": 137.21,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r83",
+      "layer": "japan",
+      "name": "Ishikawa prefecture, Japan",
+      "count": 984,
+      "lower_bound": null,
+      "lat": 36.59,
+      "lon": 136.63,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r84",
+      "layer": "japan",
+      "name": "Fukui prefecture, Japan",
+      "count": 647,
+      "lower_bound": null,
+      "lat": 36.06,
+      "lon": 136.22,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r85",
+      "layer": "japan",
+      "name": "Yamanashi prefecture, Japan",
+      "count": 691,
+      "lower_bound": null,
+      "lat": 35.66,
+      "lon": 138.57,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r86",
+      "layer": "japan",
+      "name": "Nagano prefecture, Japan",
+      "count": 1351,
+      "lower_bound": null,
+      "lat": 36.65,
+      "lon": 138.18,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r87",
+      "layer": "japan",
+      "name": "Gifu prefecture, Japan",
+      "count": 1889,
+      "lower_bound": null,
+      "lat": 35.42,
+      "lon": 136.76,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r88",
+      "layer": "japan",
+      "name": "Shizuoka prefecture, Japan",
+      "count": 2232,
+      "lower_bound": null,
+      "lat": 34.98,
+      "lon": 138.38,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r89",
+      "layer": "japan",
+      "name": "Aichi prefecture, Japan",
+      "count": 6653,
+      "lower_bound": null,
+      "lat": 35.18,
+      "lon": 136.91,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r90",
+      "layer": "japan",
+      "name": "Mie prefecture, Japan",
+      "count": 1648,
+      "lower_bound": null,
+      "lat": 34.73,
+      "lon": 136.51,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r91",
+      "layer": "japan",
+      "name": "Shiga prefecture, Japan",
+      "count": 1128,
+      "lower_bound": null,
+      "lat": 35.02,
+      "lon": 135.85,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r92",
+      "layer": "japan",
+      "name": "Kyoto prefecture, Japan",
+      "count": 2301,
+      "lower_bound": null,
+      "lat": 35.01,
+      "lon": 135.77,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r93",
+      "layer": "japan",
+      "name": "Osaka prefecture, Japan",
+      "count": 7202,
+      "lower_bound": null,
+      "lat": 34.69,
+      "lon": 135.5,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r94",
+      "layer": "japan",
+      "name": "Hyogo prefecture, Japan",
+      "count": 4610,
+      "lower_bound": null,
+      "lat": 34.69,
+      "lon": 135.18,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r95",
+      "layer": "japan",
+      "name": "Nara prefecture, Japan",
+      "count": 1542,
+      "lower_bound": null,
+      "lat": 34.69,
+      "lon": 135.83,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r96",
+      "layer": "japan",
+      "name": "Wakayama prefecture, Japan",
+      "count": 989,
+      "lower_bound": null,
+      "lat": 34.23,
+      "lon": 135.17,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r97",
+      "layer": "japan",
+      "name": "Tottori prefecture, Japan",
+      "count": 602,
+      "lower_bound": null,
+      "lat": 35.5,
+      "lon": 134.24,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r98",
+      "layer": "japan",
+      "name": "Shimane prefecture, Japan",
+      "count": 667,
+      "lower_bound": null,
+      "lat": 35.47,
+      "lon": 133.05,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r99",
+      "layer": "japan",
+      "name": "Okayama prefecture, Japan",
+      "count": 2243,
+      "lower_bound": null,
+      "lat": 34.66,
+      "lon": 133.92,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r100",
+      "layer": "japan",
+      "name": "Hiroshima prefecture, Japan",
+      "count": 2295,
+      "lower_bound": null,
+      "lat": 34.4,
+      "lon": 132.46,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r101",
+      "layer": "japan",
+      "name": "Yamaguchi prefecture, Japan",
+      "count": 954,
+      "lower_bound": null,
+      "lat": 34.19,
+      "lon": 131.47,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r102",
+      "layer": "japan",
+      "name": "Tokushima prefecture, Japan",
+      "count": 756,
+      "lower_bound": null,
+      "lat": 34.07,
+      "lon": 134.56,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r103",
+      "layer": "japan",
+      "name": "Kagawa prefecture, Japan",
+      "count": 1005,
+      "lower_bound": null,
+      "lat": 34.34,
+      "lon": 134.04,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r104",
+      "layer": "japan",
+      "name": "Ehime prefecture, Japan",
+      "count": 1459,
+      "lower_bound": null,
+      "lat": 33.84,
+      "lon": 132.77,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r105",
+      "layer": "japan",
+      "name": "Kochi prefecture, Japan",
+      "count": 707,
+      "lower_bound": null,
+      "lat": 33.56,
+      "lon": 133.53,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r106",
+      "layer": "japan",
+      "name": "Fukuoka prefecture, Japan",
+      "count": 3808,
+      "lower_bound": null,
+      "lat": 33.61,
+      "lon": 130.42,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r107",
+      "layer": "japan",
+      "name": "Saga prefecture, Japan",
+      "count": 936,
+      "lower_bound": null,
+      "lat": 33.25,
+      "lon": 130.3,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r108",
+      "layer": "japan",
+      "name": "Nagasaki prefecture, Japan",
+      "count": 1191,
+      "lower_bound": null,
+      "lat": 32.75,
+      "lon": 129.88,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r109",
+      "layer": "japan",
+      "name": "Kumamoto prefecture, Japan",
+      "count": 1712,
+      "lower_bound": null,
+      "lat": 32.79,
+      "lon": 130.74,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r110",
+      "layer": "japan",
+      "name": "Oita prefecture, Japan",
+      "count": 1382,
+      "lower_bound": null,
+      "lat": 33.24,
+      "lon": 131.61,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r111",
+      "layer": "japan",
+      "name": "Miyazaki prefecture, Japan",
+      "count": 1046,
+      "lower_bound": null,
+      "lat": 31.91,
+      "lon": 131.42,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r112",
+      "layer": "japan",
+      "name": "Kagoshima prefecture, Japan",
+      "count": 1803,
+      "lower_bound": null,
+      "lat": 31.6,
+      "lon": 130.56,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r113",
+      "layer": "japan",
+      "name": "Okinawa prefecture, Japan",
+      "count": 1513,
+      "lower_bound": null,
+      "lat": 26.21,
+      "lon": 127.68,
+      "period": "May–Sep 2025",
+      "source": "japan",
+      "region": "Japan",
+      "measure": "Heat illness ambulance transports",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "Prefecture-wide transport count. Capital used as display anchor; not a city count or a heat-stroke-only diagnosis."
+    },
+    {
+      "id": "r114",
+      "layer": "india",
+      "name": "Andhra Pradesh, India",
+      "count": 97,
+      "lower_bound": null,
+      "lat": 16.5,
+      "lon": 80.6,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r115",
+      "layer": "india",
+      "name": "Andhra Pradesh, India",
+      "count": 128,
+      "lower_bound": null,
+      "lat": 16.5,
+      "lon": 80.6,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r116",
+      "layer": "india",
+      "name": "Andhra Pradesh, India",
+      "count": 50,
+      "lower_bound": null,
+      "lat": 16.5,
+      "lon": 80.6,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r117",
+      "layer": "india",
+      "name": "Andhra Pradesh, India",
+      "count": 22,
+      "lower_bound": null,
+      "lat": 16.5,
+      "lon": 80.6,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r118",
+      "layer": "india",
+      "name": "Andhra Pradesh, India",
+      "count": 47,
+      "lower_bound": null,
+      "lat": 16.5,
+      "lon": 80.6,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r119",
+      "layer": "india",
+      "name": "Arunachal Pradesh, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 27.1,
+      "lon": 93.6,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r120",
+      "layer": "india",
+      "name": "Arunachal Pradesh, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 27.1,
+      "lon": 93.6,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r121",
+      "layer": "india",
+      "name": "Arunachal Pradesh, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 27.1,
+      "lon": 93.6,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r122",
+      "layer": "india",
+      "name": "Arunachal Pradesh, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 27.1,
+      "lon": 93.6,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r123",
+      "layer": "india",
+      "name": "Arunachal Pradesh, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 27.1,
+      "lon": 93.6,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r124",
+      "layer": "india",
+      "name": "Assam, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 26.1,
+      "lon": 91.7,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r125",
+      "layer": "india",
+      "name": "Assam, India",
+      "count": 3,
+      "lower_bound": null,
+      "lat": 26.1,
+      "lon": 91.7,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r126",
+      "layer": "india",
+      "name": "Assam, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 26.1,
+      "lon": 91.7,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r127",
+      "layer": "india",
+      "name": "Assam, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 26.1,
+      "lon": 91.7,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r128",
+      "layer": "india",
+      "name": "Assam, India",
+      "count": 1,
+      "lower_bound": null,
+      "lat": 26.1,
+      "lon": 91.7,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r129",
+      "layer": "india",
+      "name": "Bihar, India",
+      "count": 64,
+      "lower_bound": null,
+      "lat": 25.6,
+      "lon": 85.1,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r130",
+      "layer": "india",
+      "name": "Bihar, India",
+      "count": 215,
+      "lower_bound": null,
+      "lat": 25.6,
+      "lon": 85.1,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r131",
+      "layer": "india",
+      "name": "Bihar, India",
+      "count": 53,
+      "lower_bound": null,
+      "lat": 25.6,
+      "lon": 85.1,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r132",
+      "layer": "india",
+      "name": "Bihar, India",
+      "count": 57,
+      "lower_bound": null,
+      "lat": 25.6,
+      "lon": 85.1,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r133",
+      "layer": "india",
+      "name": "Bihar, India",
+      "count": 78,
+      "lower_bound": null,
+      "lat": 25.6,
+      "lon": 85.1,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r134",
+      "layer": "india",
+      "name": "Chhattisgarh, India",
+      "count": 1,
+      "lower_bound": null,
+      "lat": 21.3,
+      "lon": 81.6,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r135",
+      "layer": "india",
+      "name": "Chhattisgarh, India",
+      "count": 16,
+      "lower_bound": null,
+      "lat": 21.3,
+      "lon": 81.6,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r136",
+      "layer": "india",
+      "name": "Chhattisgarh, India",
+      "count": 3,
+      "lower_bound": null,
+      "lat": 21.3,
+      "lon": 81.6,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r137",
+      "layer": "india",
+      "name": "Chhattisgarh, India",
+      "count": 2,
+      "lower_bound": null,
+      "lat": 21.3,
+      "lon": 81.6,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r138",
+      "layer": "india",
+      "name": "Chhattisgarh, India",
+      "count": 11,
+      "lower_bound": null,
+      "lat": 21.3,
+      "lon": 81.6,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r139",
+      "layer": "india",
+      "name": "Goa, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 15.5,
+      "lon": 73.8,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r140",
+      "layer": "india",
+      "name": "Goa, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 15.5,
+      "lon": 73.8,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r141",
+      "layer": "india",
+      "name": "Goa, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 15.5,
+      "lon": 73.8,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r142",
+      "layer": "india",
+      "name": "Goa, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 15.5,
+      "lon": 73.8,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r143",
+      "layer": "india",
+      "name": "Goa, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 15.5,
+      "lon": 73.8,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r144",
+      "layer": "india",
+      "name": "Gujarat, India",
+      "count": 31,
+      "lower_bound": null,
+      "lat": 23.2,
+      "lon": 72.6,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r145",
+      "layer": "india",
+      "name": "Gujarat, India",
+      "count": 27,
+      "lower_bound": null,
+      "lat": 23.2,
+      "lon": 72.6,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r146",
+      "layer": "india",
+      "name": "Gujarat, India",
+      "count": 12,
+      "lower_bound": null,
+      "lat": 23.2,
+      "lon": 72.6,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r147",
+      "layer": "india",
+      "name": "Gujarat, India",
+      "count": 8,
+      "lower_bound": null,
+      "lat": 23.2,
+      "lon": 72.6,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r148",
+      "layer": "india",
+      "name": "Gujarat, India",
+      "count": 5,
+      "lower_bound": null,
+      "lat": 23.2,
+      "lon": 72.6,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r149",
+      "layer": "india",
+      "name": "Haryana, India",
+      "count": 56,
+      "lower_bound": null,
+      "lat": 29.1,
+      "lon": 76.1,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r150",
+      "layer": "india",
+      "name": "Haryana, India",
+      "count": 46,
+      "lower_bound": null,
+      "lat": 29.1,
+      "lon": 76.1,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r151",
+      "layer": "india",
+      "name": "Haryana, India",
+      "count": 23,
+      "lower_bound": null,
+      "lat": 29.1,
+      "lon": 76.1,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r152",
+      "layer": "india",
+      "name": "Haryana, India",
+      "count": 14,
+      "lower_bound": null,
+      "lat": 29.1,
+      "lon": 76.1,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r153",
+      "layer": "india",
+      "name": "Haryana, India",
+      "count": 27,
+      "lower_bound": null,
+      "lat": 29.1,
+      "lon": 76.1,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r154",
+      "layer": "india",
+      "name": "Himachal Pradesh, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 31.1,
+      "lon": 77.2,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r155",
+      "layer": "india",
+      "name": "Himachal Pradesh, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 31.1,
+      "lon": 77.2,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r156",
+      "layer": "india",
+      "name": "Himachal Pradesh, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 31.1,
+      "lon": 77.2,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r157",
+      "layer": "india",
+      "name": "Himachal Pradesh, India",
+      "count": 1,
+      "lower_bound": null,
+      "lat": 31.1,
+      "lon": 77.2,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r158",
+      "layer": "india",
+      "name": "Himachal Pradesh, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 31.1,
+      "lon": 77.2,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r159",
+      "layer": "india",
+      "name": "Jharkhand, India",
+      "count": 42,
+      "lower_bound": null,
+      "lat": 23.4,
+      "lon": 85.3,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r160",
+      "layer": "india",
+      "name": "Jharkhand, India",
+      "count": 88,
+      "lower_bound": null,
+      "lat": 23.4,
+      "lon": 85.3,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r161",
+      "layer": "india",
+      "name": "Jharkhand, India",
+      "count": 23,
+      "lower_bound": null,
+      "lat": 23.4,
+      "lon": 85.3,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r162",
+      "layer": "india",
+      "name": "Jharkhand, India",
+      "count": 33,
+      "lower_bound": null,
+      "lat": 23.4,
+      "lon": 85.3,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r163",
+      "layer": "india",
+      "name": "Jharkhand, India",
+      "count": 47,
+      "lower_bound": null,
+      "lat": 23.4,
+      "lon": 85.3,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r164",
+      "layer": "india",
+      "name": "Karnataka, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 13.0,
+      "lon": 77.6,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r165",
+      "layer": "india",
+      "name": "Karnataka, India",
+      "count": 4,
+      "lower_bound": null,
+      "lat": 13.0,
+      "lon": 77.6,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r166",
+      "layer": "india",
+      "name": "Karnataka, India",
+      "count": 1,
+      "lower_bound": null,
+      "lat": 13.0,
+      "lon": 77.6,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r167",
+      "layer": "india",
+      "name": "Karnataka, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 13.0,
+      "lon": 77.6,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r168",
+      "layer": "india",
+      "name": "Karnataka, India",
+      "count": 2,
+      "lower_bound": null,
+      "lat": 13.0,
+      "lon": 77.6,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r169",
+      "layer": "india",
+      "name": "Kerala, India",
+      "count": 1,
+      "lower_bound": null,
+      "lat": 8.5,
+      "lon": 76.9,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r170",
+      "layer": "india",
+      "name": "Kerala, India",
+      "count": 3,
+      "lower_bound": null,
+      "lat": 8.5,
+      "lon": 76.9,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r171",
+      "layer": "india",
+      "name": "Kerala, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 8.5,
+      "lon": 76.9,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r172",
+      "layer": "india",
+      "name": "Kerala, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 8.5,
+      "lon": 76.9,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r173",
+      "layer": "india",
+      "name": "Kerala, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 8.5,
+      "lon": 76.9,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r174",
+      "layer": "india",
+      "name": "Madhya Pradesh, India",
+      "count": 15,
+      "lower_bound": null,
+      "lat": 23.3,
+      "lon": 77.4,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r175",
+      "layer": "india",
+      "name": "Madhya Pradesh, India",
+      "count": 33,
+      "lower_bound": null,
+      "lat": 23.3,
+      "lon": 77.4,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r176",
+      "layer": "india",
+      "name": "Madhya Pradesh, India",
+      "count": 7,
+      "lower_bound": null,
+      "lat": 23.3,
+      "lon": 77.4,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r177",
+      "layer": "india",
+      "name": "Madhya Pradesh, India",
+      "count": 2,
+      "lower_bound": null,
+      "lat": 23.3,
+      "lon": 77.4,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r178",
+      "layer": "india",
+      "name": "Madhya Pradesh, India",
+      "count": 27,
+      "lower_bound": null,
+      "lat": 23.3,
+      "lon": 77.4,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r179",
+      "layer": "india",
+      "name": "Maharashtra, India",
+      "count": 128,
+      "lower_bound": null,
+      "lat": 19.1,
+      "lon": 72.9,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r180",
+      "layer": "india",
+      "name": "Maharashtra, India",
+      "count": 159,
+      "lower_bound": null,
+      "lat": 19.1,
+      "lon": 72.9,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r181",
+      "layer": "india",
+      "name": "Maharashtra, India",
+      "count": 56,
+      "lower_bound": null,
+      "lat": 19.1,
+      "lon": 72.9,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r182",
+      "layer": "india",
+      "name": "Maharashtra, India",
+      "count": 37,
+      "lower_bound": null,
+      "lat": 19.1,
+      "lon": 72.9,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r183",
+      "layer": "india",
+      "name": "Maharashtra, India",
+      "count": 90,
+      "lower_bound": null,
+      "lat": 19.1,
+      "lon": 72.9,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r184",
+      "layer": "india",
+      "name": "Manipur, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 24.8,
+      "lon": 93.9,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r185",
+      "layer": "india",
+      "name": "Manipur, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 24.8,
+      "lon": 93.9,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r186",
+      "layer": "india",
+      "name": "Manipur, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 24.8,
+      "lon": 93.9,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r187",
+      "layer": "india",
+      "name": "Manipur, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 24.8,
+      "lon": 93.9,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r188",
+      "layer": "india",
+      "name": "Manipur, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 24.8,
+      "lon": 93.9,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r189",
+      "layer": "india",
+      "name": "Meghalaya, India",
+      "count": 4,
+      "lower_bound": null,
+      "lat": 25.6,
+      "lon": 91.9,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r190",
+      "layer": "india",
+      "name": "Meghalaya, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 25.6,
+      "lon": 91.9,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r191",
+      "layer": "india",
+      "name": "Meghalaya, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 25.6,
+      "lon": 91.9,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r192",
+      "layer": "india",
+      "name": "Meghalaya, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 25.6,
+      "lon": 91.9,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r193",
+      "layer": "india",
+      "name": "Meghalaya, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 25.6,
+      "lon": 91.9,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r194",
+      "layer": "india",
+      "name": "Mizoram, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 23.7,
+      "lon": 92.7,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r195",
+      "layer": "india",
+      "name": "Mizoram, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 23.7,
+      "lon": 92.7,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r196",
+      "layer": "india",
+      "name": "Mizoram, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 23.7,
+      "lon": 92.7,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r197",
+      "layer": "india",
+      "name": "Mizoram, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 23.7,
+      "lon": 92.7,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r198",
+      "layer": "india",
+      "name": "Mizoram, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 23.7,
+      "lon": 92.7,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r199",
+      "layer": "india",
+      "name": "Nagaland, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 25.7,
+      "lon": 94.1,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r200",
+      "layer": "india",
+      "name": "Nagaland, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 25.7,
+      "lon": 94.1,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r201",
+      "layer": "india",
+      "name": "Nagaland, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 25.7,
+      "lon": 94.1,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r202",
+      "layer": "india",
+      "name": "Nagaland, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 25.7,
+      "lon": 94.1,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r203",
+      "layer": "india",
+      "name": "Nagaland, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 25.7,
+      "lon": 94.1,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r204",
+      "layer": "india",
+      "name": "Odisha, India",
+      "count": 40,
+      "lower_bound": null,
+      "lat": 20.3,
+      "lon": 85.8,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r205",
+      "layer": "india",
+      "name": "Odisha, India",
+      "count": 84,
+      "lower_bound": null,
+      "lat": 20.3,
+      "lon": 85.8,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r206",
+      "layer": "india",
+      "name": "Odisha, India",
+      "count": 13,
+      "lower_bound": null,
+      "lat": 20.3,
+      "lon": 85.8,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r207",
+      "layer": "india",
+      "name": "Odisha, India",
+      "count": 15,
+      "lower_bound": null,
+      "lat": 20.3,
+      "lon": 85.8,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r208",
+      "layer": "india",
+      "name": "Odisha, India",
+      "count": 38,
+      "lower_bound": null,
+      "lat": 20.3,
+      "lon": 85.8,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r209",
+      "layer": "india",
+      "name": "Punjab, India",
+      "count": 38,
+      "lower_bound": null,
+      "lat": 30.9,
+      "lon": 75.8,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r210",
+      "layer": "india",
+      "name": "Punjab, India",
+      "count": 90,
+      "lower_bound": null,
+      "lat": 30.9,
+      "lon": 75.8,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r211",
+      "layer": "india",
+      "name": "Punjab, India",
+      "count": 110,
+      "lower_bound": null,
+      "lat": 30.9,
+      "lon": 75.8,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r212",
+      "layer": "india",
+      "name": "Punjab, India",
+      "count": 91,
+      "lower_bound": null,
+      "lat": 30.9,
+      "lon": 75.8,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r213",
+      "layer": "india",
+      "name": "Punjab, India",
+      "count": 130,
+      "lower_bound": null,
+      "lat": 30.9,
+      "lon": 75.8,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r214",
+      "layer": "india",
+      "name": "Rajasthan, India",
+      "count": 43,
+      "lower_bound": null,
+      "lat": 26.9,
+      "lon": 75.8,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r215",
+      "layer": "india",
+      "name": "Rajasthan, India",
+      "count": 54,
+      "lower_bound": null,
+      "lat": 26.9,
+      "lon": 75.8,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r216",
+      "layer": "india",
+      "name": "Rajasthan, India",
+      "count": 23,
+      "lower_bound": null,
+      "lat": 26.9,
+      "lon": 75.8,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r217",
+      "layer": "india",
+      "name": "Rajasthan, India",
+      "count": 1,
+      "lower_bound": null,
+      "lat": 26.9,
+      "lon": 75.8,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r218",
+      "layer": "india",
+      "name": "Rajasthan, India",
+      "count": 12,
+      "lower_bound": null,
+      "lat": 26.9,
+      "lon": 75.8,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r219",
+      "layer": "india",
+      "name": "Sikkim, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 27.3,
+      "lon": 88.6,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r220",
+      "layer": "india",
+      "name": "Sikkim, India",
+      "count": 1,
+      "lower_bound": null,
+      "lat": 27.3,
+      "lon": 88.6,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r221",
+      "layer": "india",
+      "name": "Sikkim, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 27.3,
+      "lon": 88.6,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r222",
+      "layer": "india",
+      "name": "Sikkim, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 27.3,
+      "lon": 88.6,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r223",
+      "layer": "india",
+      "name": "Sikkim, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 27.3,
+      "lon": 88.6,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r224",
+      "layer": "india",
+      "name": "Tamil Nadu, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 13.1,
+      "lon": 80.3,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r225",
+      "layer": "india",
+      "name": "Tamil Nadu, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 13.1,
+      "lon": 80.3,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r226",
+      "layer": "india",
+      "name": "Tamil Nadu, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 13.1,
+      "lon": 80.3,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r227",
+      "layer": "india",
+      "name": "Tamil Nadu, India",
+      "count": 2,
+      "lower_bound": null,
+      "lat": 13.1,
+      "lon": 80.3,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r228",
+      "layer": "india",
+      "name": "Tamil Nadu, India",
+      "count": 2,
+      "lower_bound": null,
+      "lat": 13.1,
+      "lon": 80.3,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r229",
+      "layer": "india",
+      "name": "Telangana, India",
+      "count": 107,
+      "lower_bound": null,
+      "lat": 17.4,
+      "lon": 78.5,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r230",
+      "layer": "india",
+      "name": "Telangana, India",
+      "count": 156,
+      "lower_bound": null,
+      "lat": 17.4,
+      "lon": 78.5,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r231",
+      "layer": "india",
+      "name": "Telangana, India",
+      "count": 98,
+      "lower_bound": null,
+      "lat": 17.4,
+      "lon": 78.5,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r232",
+      "layer": "india",
+      "name": "Telangana, India",
+      "count": 43,
+      "lower_bound": null,
+      "lat": 17.4,
+      "lon": 78.5,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r233",
+      "layer": "india",
+      "name": "Telangana, India",
+      "count": 62,
+      "lower_bound": null,
+      "lat": 17.4,
+      "lon": 78.5,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r234",
+      "layer": "india",
+      "name": "Tripura, India",
+      "count": 1,
+      "lower_bound": null,
+      "lat": 23.8,
+      "lon": 91.3,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r235",
+      "layer": "india",
+      "name": "Tripura, India",
+      "count": 1,
+      "lower_bound": null,
+      "lat": 23.8,
+      "lon": 91.3,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r236",
+      "layer": "india",
+      "name": "Tripura, India",
+      "count": 2,
+      "lower_bound": null,
+      "lat": 23.8,
+      "lon": 91.3,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r237",
+      "layer": "india",
+      "name": "Tripura, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 23.8,
+      "lon": 91.3,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r238",
+      "layer": "india",
+      "name": "Tripura, India",
+      "count": 2,
+      "lower_bound": null,
+      "lat": 23.8,
+      "lon": 91.3,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r239",
+      "layer": "india",
+      "name": "Uttar Pradesh, India",
+      "count": 176,
+      "lower_bound": null,
+      "lat": 26.8,
+      "lon": 80.9,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r240",
+      "layer": "india",
+      "name": "Uttar Pradesh, India",
+      "count": 117,
+      "lower_bound": null,
+      "lat": 26.8,
+      "lon": 80.9,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r241",
+      "layer": "india",
+      "name": "Uttar Pradesh, India",
+      "count": 50,
+      "lower_bound": null,
+      "lat": 26.8,
+      "lon": 80.9,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r242",
+      "layer": "india",
+      "name": "Uttar Pradesh, India",
+      "count": 35,
+      "lower_bound": null,
+      "lat": 26.8,
+      "lon": 80.9,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r243",
+      "layer": "india",
+      "name": "Uttar Pradesh, India",
+      "count": 130,
+      "lower_bound": null,
+      "lat": 26.8,
+      "lon": 80.9,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r244",
+      "layer": "india",
+      "name": "Uttarakhand, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 30.3,
+      "lon": 78.0,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r245",
+      "layer": "india",
+      "name": "Uttarakhand, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 30.3,
+      "lon": 78.0,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r246",
+      "layer": "india",
+      "name": "Uttarakhand, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 30.3,
+      "lon": 78.0,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r247",
+      "layer": "india",
+      "name": "Uttarakhand, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 30.3,
+      "lon": 78.0,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r248",
+      "layer": "india",
+      "name": "Uttarakhand, India",
+      "count": 0,
+      "lower_bound": null,
+      "lat": 30.3,
+      "lon": 78.0,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r249",
+      "layer": "india",
+      "name": "West Bengal, India",
+      "count": 46,
+      "lower_bound": null,
+      "lat": 22.6,
+      "lon": 88.4,
+      "period": "2018",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r250",
+      "layer": "india",
+      "name": "West Bengal, India",
+      "count": 49,
+      "lower_bound": null,
+      "lat": 22.6,
+      "lon": 88.4,
+      "period": "2019",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r251",
+      "layer": "india",
+      "name": "West Bengal, India",
+      "count": 6,
+      "lower_bound": null,
+      "lat": 22.6,
+      "lon": 88.4,
+      "period": "2020",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r252",
+      "layer": "india",
+      "name": "West Bengal, India",
+      "count": 11,
+      "lower_bound": null,
+      "lat": 22.6,
+      "lon": 88.4,
+      "period": "2021",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r253",
+      "layer": "india",
+      "name": "West Bengal, India",
+      "count": 18,
+      "lower_bound": null,
+      "lat": 22.6,
+      "lon": 88.4,
+      "period": "2022",
+      "source": "india",
+      "region": "India",
+      "measure": "Recorded heat / sunstroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "State-wide administrative count; approximate state display anchor, not a death location. Union territories not mapped. Zero is recorded zero, not absence of risk."
+    },
+    {
+      "id": "r254",
+      "layer": "civilian-deaths",
+      "name": "Maricopa County, Arizona",
+      "count": 339,
+      "lower_bound": null,
+      "lat": 33.45,
+      "lon": -112.07,
+      "period": "2021",
+      "source": "maricopa",
+      "region": "United States",
+      "measure": "Observed heat-related deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "County-wide heat-caused and heat-contributed deaths, including nonresidents. County display anchor."
+    },
+    {
+      "id": "r255",
+      "layer": "civilian-deaths",
+      "name": "Maricopa County, Arizona",
+      "count": 425,
+      "lower_bound": null,
+      "lat": 33.45,
+      "lon": -112.07,
+      "period": "2022",
+      "source": "maricopa",
+      "region": "United States",
+      "measure": "Observed heat-related deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "County-wide heat-caused and heat-contributed deaths, including nonresidents. County display anchor."
+    },
+    {
+      "id": "r256",
+      "layer": "civilian-deaths",
+      "name": "Maricopa County, Arizona",
+      "count": 645,
+      "lower_bound": null,
+      "lat": 33.45,
+      "lon": -112.07,
+      "period": "2023",
+      "source": "maricopa",
+      "region": "United States",
+      "measure": "Observed heat-related deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "County-wide heat-caused and heat-contributed deaths, including nonresidents. County display anchor."
+    },
+    {
+      "id": "r257",
+      "layer": "civilian-deaths",
+      "name": "Maricopa County, Arizona",
+      "count": 608,
+      "lower_bound": null,
+      "lat": 33.45,
+      "lon": -112.07,
+      "period": "2024",
+      "source": "maricopa",
+      "region": "United States",
+      "measure": "Observed heat-related deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "County-wide heat-caused and heat-contributed deaths, including nonresidents. County display anchor."
+    },
+    {
+      "id": "r258",
+      "layer": "civilian-deaths",
+      "name": "Maricopa County, Arizona",
+      "count": 430,
+      "lower_bound": null,
+      "lat": 33.45,
+      "lon": -112.07,
+      "period": "2025",
+      "source": "maricopa",
+      "region": "United States",
+      "measure": "Observed heat-related deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "County-wide heat-caused and heat-contributed deaths, including nonresidents. County display anchor."
+    },
+    {
+      "id": "r259",
+      "layer": "civilian-deaths",
+      "name": "Spain",
+      "count": 25,
+      "lower_bound": null,
+      "lat": 40.42,
+      "lon": -3.7,
+      "period": "Summer 2025",
+      "source": "spain",
+      "region": "Europe",
+      "measure": "Confirmed heat-stroke deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "May 16–September 30. National total anchored at Madrid; not a city count."
+    },
+    {
+      "id": "r260",
+      "layer": "modeled-deaths",
+      "name": "Spain",
+      "count": 3832,
+      "lower_bound": null,
+      "lat": 40.42,
+      "lon": -3.7,
+      "period": "Summer 2025",
+      "source": "spain",
+      "region": "Europe",
+      "measure": "Modeled heat-attributable deaths",
+      "geocoding": "Approximate display anchor; not an event coordinate",
+      "note": "MoMo statistical estimate, not individually confirmed heat-stroke deaths. May 16–September 30."
+    }
+  ],
+  "trends": [
+    {
+      "year": 2021,
+      "branch": "Army",
+      "measure": "Heat exhaustion",
+      "count": 1032,
+      "rate": 215.6,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2021,
+      "branch": "Navy",
+      "measure": "Heat exhaustion",
+      "count": 147,
+      "rate": 43,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2021,
+      "branch": "Air Force",
+      "measure": "Heat exhaustion",
+      "count": 184,
+      "rate": 53.8,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2021,
+      "branch": "Marine Corps",
+      "measure": "Heat exhaustion",
+      "count": 494,
+      "rate": 275.4,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2021,
+      "branch": "Space Force",
+      "measure": "Heat exhaustion",
+      "count": null,
+      "rate": null,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2021,
+      "branch": "Coast Guard",
+      "measure": "Heat exhaustion",
+      "count": 5,
+      "rate": 12.4,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2022,
+      "branch": "Army",
+      "measure": "Heat exhaustion",
+      "count": 1033,
+      "rate": 224.3,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2022,
+      "branch": "Navy",
+      "measure": "Heat exhaustion",
+      "count": 191,
+      "rate": 56.5,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2022,
+      "branch": "Air Force",
+      "measure": "Heat exhaustion",
+      "count": 237,
+      "rate": 73.8,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2022,
+      "branch": "Marine Corps",
+      "measure": "Heat exhaustion",
+      "count": 554,
+      "rate": 318.5,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2022,
+      "branch": "Space Force",
+      "measure": "Heat exhaustion",
+      "count": null,
+      "rate": null,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2022,
+      "branch": "Coast Guard",
+      "measure": "Heat exhaustion",
+      "count": 19,
+      "rate": 47.9,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2023,
+      "branch": "Army",
+      "measure": "Heat exhaustion",
+      "count": 1179,
+      "rate": 263.1,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2023,
+      "branch": "Navy",
+      "measure": "Heat exhaustion",
+      "count": 205,
+      "rate": 62.7,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2023,
+      "branch": "Air Force",
+      "measure": "Heat exhaustion",
+      "count": 363,
+      "rate": 111,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2023,
+      "branch": "Marine Corps",
+      "measure": "Heat exhaustion",
+      "count": 491,
+      "rate": 290.7,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2023,
+      "branch": "Space Force",
+      "measure": "Heat exhaustion",
+      "count": 7,
+      "rate": 81.9,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2023,
+      "branch": "Coast Guard",
+      "measure": "Heat exhaustion",
+      "count": 6,
+      "rate": 15.5,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2024,
+      "branch": "Army",
+      "measure": "Heat exhaustion",
+      "count": 1211,
+      "rate": 278.4,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2024,
+      "branch": "Navy",
+      "measure": "Heat exhaustion",
+      "count": 203,
+      "rate": 63.2,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2024,
+      "branch": "Air Force",
+      "measure": "Heat exhaustion",
+      "count": 298,
+      "rate": 92.8,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2024,
+      "branch": "Marine Corps",
+      "measure": "Heat exhaustion",
+      "count": 655,
+      "rate": 397.5,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2024,
+      "branch": "Space Force",
+      "measure": "Heat exhaustion",
+      "count": 4,
+      "rate": 43.4,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2024,
+      "branch": "Coast Guard",
+      "measure": "Heat exhaustion",
+      "count": 17,
+      "rate": 43.2,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2025,
+      "branch": "Army",
+      "measure": "Heat exhaustion",
+      "count": 1223,
+      "rate": 274,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2025,
+      "branch": "Navy",
+      "measure": "Heat exhaustion",
+      "count": 240,
+      "rate": 72.3,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2025,
+      "branch": "Air Force",
+      "measure": "Heat exhaustion",
+      "count": 253,
+      "rate": 76.2,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2025,
+      "branch": "Marine Corps",
+      "measure": "Heat exhaustion",
+      "count": 483,
+      "rate": 284,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2025,
+      "branch": "Space Force",
+      "measure": "Heat exhaustion",
+      "count": 5,
+      "rate": 50.7,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2025,
+      "branch": "Coast Guard",
+      "measure": "Heat exhaustion",
+      "count": 29,
+      "rate": 70.7,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2021,
+      "branch": "Army",
+      "measure": "Heat stroke",
+      "count": 298,
+      "rate": 62.3,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2021,
+      "branch": "Navy",
+      "measure": "Heat stroke",
+      "count": 25,
+      "rate": 7.3,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2021,
+      "branch": "Air Force",
+      "measure": "Heat stroke",
+      "count": 27,
+      "rate": 7.9,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2021,
+      "branch": "Marine Corps",
+      "measure": "Heat stroke",
+      "count": 110,
+      "rate": 61.3,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2021,
+      "branch": "Space Force",
+      "measure": "Heat stroke",
+      "count": null,
+      "rate": null,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2021,
+      "branch": "Coast Guard",
+      "measure": "Heat stroke",
+      "count": 0,
+      "rate": 0,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2022,
+      "branch": "Army",
+      "measure": "Heat stroke",
+      "count": 225,
+      "rate": 48.8,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2022,
+      "branch": "Navy",
+      "measure": "Heat stroke",
+      "count": 31,
+      "rate": 9.2,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2022,
+      "branch": "Air Force",
+      "measure": "Heat stroke",
+      "count": 32,
+      "rate": 10,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2022,
+      "branch": "Marine Corps",
+      "measure": "Heat stroke",
+      "count": 134,
+      "rate": 77,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2022,
+      "branch": "Space Force",
+      "measure": "Heat stroke",
+      "count": null,
+      "rate": null,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2022,
+      "branch": "Coast Guard",
+      "measure": "Heat stroke",
+      "count": 1,
+      "rate": 2.5,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2023,
+      "branch": "Army",
+      "measure": "Heat stroke",
+      "count": 234,
+      "rate": 52.2,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2023,
+      "branch": "Navy",
+      "measure": "Heat stroke",
+      "count": 36,
+      "rate": 11,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2023,
+      "branch": "Air Force",
+      "measure": "Heat stroke",
+      "count": 20,
+      "rate": 6.1,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2023,
+      "branch": "Marine Corps",
+      "measure": "Heat stroke",
+      "count": 114,
+      "rate": 67.5,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2023,
+      "branch": "Space Force",
+      "measure": "Heat stroke",
+      "count": 0,
+      "rate": 0,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2023,
+      "branch": "Coast Guard",
+      "measure": "Heat stroke",
+      "count": 3,
+      "rate": 7.7,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2024,
+      "branch": "Army",
+      "measure": "Heat stroke",
+      "count": 247,
+      "rate": 56.8,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2024,
+      "branch": "Navy",
+      "measure": "Heat stroke",
+      "count": 41,
+      "rate": 12.8,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2024,
+      "branch": "Air Force",
+      "measure": "Heat stroke",
+      "count": 38,
+      "rate": 11.8,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2024,
+      "branch": "Marine Corps",
+      "measure": "Heat stroke",
+      "count": 144,
+      "rate": 87.4,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2024,
+      "branch": "Space Force",
+      "measure": "Heat stroke",
+      "count": 0,
+      "rate": 0,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2024,
+      "branch": "Coast Guard",
+      "measure": "Heat stroke",
+      "count": 1,
+      "rate": 2.5,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2025,
+      "branch": "Army",
+      "measure": "Heat stroke",
+      "count": 307,
+      "rate": 68.8,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2025,
+      "branch": "Navy",
+      "measure": "Heat stroke",
+      "count": 32,
+      "rate": 9.6,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2025,
+      "branch": "Air Force",
+      "measure": "Heat stroke",
+      "count": 19,
+      "rate": 5.7,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2025,
+      "branch": "Marine Corps",
+      "measure": "Heat stroke",
+      "count": 158,
+      "rate": 92.9,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2025,
+      "branch": "Space Force",
+      "measure": "Heat stroke",
+      "count": 1,
+      "rate": 10.1,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    },
+    {
+      "year": 2025,
+      "branch": "Coast Guard",
+      "measure": "Heat stroke",
+      "count": 1,
+      "rate": 2.4,
+      "unit": "cases per 100,000 person-years",
+      "source": "heatfull"
+    }
+  ],
+  "sources": [
+    {
+      "id": "heat25",
+      "title": "AFHSD · Heat illness, 2021–2025 · Table 3",
+      "url": "https://www.health.mil/Reference-Center/Reports/2026/05/01/MSMR-Article-1-Table-3",
+      "scope": "Military · worldwide",
+      "status": "Extracted",
+      "notes": "21 named locations; one heat illness per person per year; location of diagnosis/report. Other locations retained separately.",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": "heat24",
+      "title": "AFHSD · Heat illness, 2020–2024 · Table 3",
+      "url": "https://www.health.mil/Reference-Center/Reports/2025/06/01/MSMR-Article-1-Table-3",
+      "scope": "Military · worldwide",
+      "status": "Extracted",
+      "notes": "22 named locations. Overlaps the newer five-year window; do not add windows or infer annual changes from their difference.",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": "heatfull",
+      "title": "MSMR · May 2026 full issue",
+      "url": "https://health.mil/Reference-Center/Reports/2026/05/01/MSMR-Vol-33-No-5-May-2026",
+      "scope": "Military · trends and methods",
+      "status": "Extracted",
+      "notes": "Table 2 branch-year counts/rates extracted. PDF tables preferred over erroneous web chart alt text. Includes Coast Guard; Space Force separate from 2023.",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": "cold25",
+      "title": "AFHSD · Cold injury, July 2020–June 2025",
+      "url": "https://health.mil/Reference-Center/Reports/2025/12/01/MSMR-Vol-32-No-12-Dec-2025",
+      "scope": "Military · worldwide",
+      "status": "Extracted",
+      "notes": "Figure 4 names 23 locations with ≥25 cases over five seasons. Exact five-season totals are stated for five locations only in the narrative; other totals remain null. Scope includes unspecified cold injuries.",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": "congress",
+      "title": "DoD · Heat Illness Report to Congress · November 2023",
+      "url": "https://health.mil/Reference-Center/Reports/2023/11/28/Heat-Illness-Report",
+      "scope": "Military · surveillance gaps and WBGT",
+      "status": "Reviewed",
+      "notes": "2018–2022: 11,218 diagnoses at >230 locations. Missing DRSi reports are not the same as diagnoses absent from all surveillance. Appendix C contains modeled flag-day histories at 15 training locations.",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": "monthly",
+      "title": "DCPH-A · Weather-related injury surveillance archive",
+      "url": "https://ph.health.mil/news/Pages/PublicationDetails.aspx?type=Weather-Related+Injury+Surveillance",
+      "scope": "Military · monthly reports",
+      "status": "Catalogued",
+      "notes": "Additional installation charts and provisional year-to-date series; not merged into annual MSMR counts.",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": "apr26",
+      "title": "DCPH-A · April 2026 heat surveillance summary",
+      "url": "https://ph.health.mil/periodicals/ppub-heat-injury-report-apr2026.pdf",
+      "scope": "Military · provisional 2026",
+      "status": "Retrieval incomplete",
+      "notes": "Indexed report identified; PDF retrieval returned 502. No numeric rows imported. Installation chart excludes counts below 10.",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": "japan",
+      "title": "Japan FDMA · Heat illness ambulance transports, 2025",
+      "url": "https://www.fdma.go.jp/disaster/heatstroke/items/r7/heatstroke_nenpou_r7.pdf",
+      "scope": "Civilian · 47 prefectures",
+      "status": "Extracted",
+      "notes": "May 1–September 30, 2025. Table 4-2, PDF page 10. Ambulance transports for heat illness, not a count of severe heat stroke; prefecture capital coordinates are display anchors.",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": "india",
+      "title": "India NCRB / Ministry of Earth Sciences · Recorded heat/sunstroke deaths",
+      "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2158403&lang=2&reg=3",
+      "scope": "Civilian · 28 states, 2018–2022",
+      "status": "Extracted",
+      "notes": "Annexure 1, August 20, 2025 parliamentary response. State rows extracted; union territories excluded from map. Zero means zero recorded deaths, not proof of no heat mortality.",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": "maricopa",
+      "title": "Maricopa County · 2025 heat-related deaths report",
+      "url": "https://www.maricopa.gov/ArchiveCenter/ViewFile/Item/6510",
+      "scope": "Civilian · Arizona",
+      "status": "Extracted",
+      "notes": "Table A: 2021–2025 deaths including heat-caused and heat-contributed deaths; includes nonresidents. County anchor, not individual death locations.",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": "spain",
+      "title": "Spain Ministry of Health · 2025 summer assessment",
+      "url": "https://www.sanidad.gob.es/gabinete/notasPrensa.do?id=6760",
+      "scope": "Civilian · Spain",
+      "status": "Extracted",
+      "notes": "May 16–September 30, 2025. 25 confirmed heat-stroke deaths and 3,832 MoMo modeled heat-attributable deaths are distinct measures, not an underreporting ratio.",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": "france",
+      "title": "Santé publique France · Summer 2025 bulletin",
+      "url": "https://www.santepubliquefrance.fr/sites/default/files/rdd/document/bullnat_chaleur_bilan_2025.pdf",
+      "scope": "Civilian · Metropolitan France",
+      "status": "Reviewed",
+      "notes": "June 1–September 15, 2025: >5,700 modeled heat-attributable deaths and >24,000 iCanicule urgent-care contacts (hyperthermia, dehydration, hyponatremia). Not added as exact map counts.",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": "cdc",
+      "title": "CDC Tracking · Heat and heat-related illness",
+      "url": "https://www.cdc.gov/environmental-health-tracking/php/data-research/heat-heat-related-illness.html",
+      "scope": "Civilian · United States",
+      "status": "Catalogued",
+      "notes": "ED visits, hospitalizations and death-certificate mortality. County coverage, suppression, denominators and available years depend on indicator. Nationwide extract not yet imported.",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": "cdcmap",
+      "title": "CDC · Heat & Health Tracker",
+      "url": "https://ephtracking.cdc.gov/Applications/heatTracker/",
+      "scope": "Civilian · United States",
+      "status": "External explorer",
+      "notes": "Heat exposure, health outcomes, and vulnerability are distinct layers. Follow source links to query its current data.",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": "florida",
+      "title": "Florida Environmental Public Health Tracking",
+      "url": "https://www.floridatracking.com/healthtracking/mapview.htm",
+      "scope": "Civilian · Florida",
+      "status": "Catalogued",
+      "notes": "Heat-related events with geographic identifiers. Suppressed and unavailable cells must remain missing; data not imported.",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": "coldcivil",
+      "title": "EPA · Cold-related deaths technical documentation",
+      "url": "https://www.epa.gov/sites/production/files/2021-04/documents/cold-deaths_td.pdf",
+      "scope": "Civilian · United States",
+      "status": "Catalogued",
+      "notes": "Mortality methods and CDC WONDER provenance; civilian cold outcome data not yet extracted.",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": "nasa",
+      "title": "NASA GIBS · Open geospatial imagery services",
+      "url": "https://nasa-gibs.github.io/gibs-api-docs/access-basics/",
+      "scope": "Environmental exposure · worldwide",
+      "status": "External explorer",
+      "notes": "Satellite land-surface temperature is not ambient air temperature, WBGT, or illness incidence. No environmental surface is inferred from case counts.",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": "wbgt",
+      "title": "US Army · TB MED 507 · Heat stress control",
+      "url": "https://www.govinfo.gov/content/pkg/GOVPUB-D101-PURL-gpo216616/pdf/GOVPUB-D101-PURL-gpo216616.pdf",
+      "scope": "Prevention · heat",
+      "status": "Reference",
+      "notes": "Primary military heat-stress guidance. Atlas is retrospective and does not replace local WBGT measurements or operational guidance.",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": "coldguide",
+      "title": "US Army · TB MED 508 · Cold-weather injury prevention",
+      "url": "https://apps.dtic.mil/sti/tr/pdf/ADA433435.pdf",
+      "scope": "Prevention · cold",
+      "status": "Reference",
+      "notes": "Primary cold-weather guidance cited by the AFHSD surveillance report.",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": "navy",
+      "title": "Navy · Prevention and treatment of heat and cold stress injuries",
+      "url": "https://www.med.navy.mil/portals/62/documents/nmfa/nmcphc/root/occupational%20and%20environmental%20medicine/5heat_and_cold_final_june07.pdf",
+      "scope": "Prevention · Navy",
+      "status": "Reference",
+      "notes": "2007 technical manual cited by 2026 MSMR. Retain publication date; not represented as newly issued guidance.",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": "rhabdo",
+      "title": "AFHSD · Exertional rhabdomyolysis, 2021–2025",
+      "url": "https://health.mil/News/Articles/2026/05/01/MSMR-Rhabdomyolysis-2026",
+      "scope": "Related military outcome",
+      "status": "Catalogued",
+      "notes": "Keep separate from heat exhaustion/heat stroke; co-occurrence precludes simply adding counts.",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": "hypo",
+      "title": "AFHSD · Exertional hyponatremia, 2021–2025",
+      "url": "https://health.mil/News/Articles/2026/05/01/MSMR-Hyponatremia-2026",
+      "scope": "Related military outcome",
+      "status": "Catalogued",
+      "notes": "Distinct outcome; not treated as another heat illness case in this atlas.",
+      "accessed": "2026-10-20"
+    },
+    {
+      "id": "ne",
+      "title": "Natural Earth · Admin-0 and Admin-1 boundaries, v5.1.2",
+      "url": "https://www.naturalearthdata.com/downloads/10m-cultural-vectors/10m-admin-1-states-provinces/",
+      "scope": "Geography · worldwide",
+      "status": "Geometry",
+      "notes": "Public-domain boundaries for Japanese prefectures, Indian states and Spain. Simplified for web display. De facto boundaries; no position on disputed territory is implied.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "census",
+      "title": "U.S. Census Bureau · 2023 cartographic boundary file, counties (1:5m)",
+      "url": "https://www2.census.gov/geo/tiger/GENZ2023/shp/cb_2023_us_county_5m.zip",
+      "scope": "Geography · United States",
+      "status": "Geometry",
+      "notes": "Maricopa County, Arizona polygon (GEOID 04013).",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "mirta",
+      "title": "DoD · Military Installations, Ranges, and Training Areas (MIRTA) boundaries",
+      "url": "https://www.arcgis.com/home/item.html?id=c7ebbc4daf1849e28e5ac2d0ba8c5d55",
+      "scope": "Geography · U.S. military sites",
+      "status": "Geometry",
+      "notes": "Authoritative DoD site boundaries for planning, via the Esri U.S. Federal Datasets mirror. Used to draw footprints and test display anchors. Footprints are context: AFHSD counts are by diagnosis/report location, not by fence line. No overseas sites.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "jpop",
+      "title": "Statistics Bureau of Japan · Population estimates, 1 Oct 2024, Tables 2–3",
+      "url": "https://www.stat.go.jp/data/jinsui/2024np/index.html",
+      "scope": "Denominators · Japan",
+      "status": "Extracted",
+      "notes": "Total and age-65+ population by prefecture (thousands). Denominator for transports per 100,000. Population date precedes the May–Sep 2025 transport window by seven months.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "fdma42",
+      "title": "Japan FDMA · 2025 heat illness report, Table 4-2 (age and severity)",
+      "url": "https://www.fdma.go.jp/disaster/heatstroke/items/r7/heatstroke_nenpou_r7.pdf",
+      "scope": "Civilian · 47 prefectures",
+      "status": "Extracted",
+      "notes": "Same table as the transport totals. Severity is the initial-diagnosis category at the hospital (death, severe, moderate, mild). Age 65+ is the FDMA 高齢者 group.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "era5",
+      "title": "Copernicus ERA5 reanalysis via Open-Meteo Historical Weather API",
+      "url": "https://open-meteo.com/en/docs/historical-weather-api",
+      "scope": "Climate context · military anchors",
+      "status": "Derived",
+      "notes": "Daily 2 m max/min air temperature, ~25 km grid cell nearest each display anchor. Hersbach et al. (2020), CC BY 4.0. Context only: not WBGT, not exposure during training, and not a cause of any count.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "gibs",
+      "title": "NASA GIBS · MODIS Terra monthly daytime land-surface temperature",
+      "url": "https://nasa-gibs.github.io/gibs-api-docs/",
+      "scope": "Environmental raster · worldwide",
+      "status": "Live layer",
+      "notes": "WMTS tiles streamed from NASA at view time; not stored here. Surface (skin) temperature of the ground, not air temperature or heat stress.",
+      "accessed": "2026-10-21"
+    },
+    {
+      "id": "osm",
+      "title": "OpenFreeMap · OpenStreetMap vector basemap",
+      "url": "https://openfreemap.org/",
+      "scope": "Basemap",
+      "status": "Live layer",
+      "notes": "Open-source vector tiles from OpenStreetMap data (ODbL). Basemap boundaries are cartographic context, not data.",
+      "accessed": "2026-10-21"
+    }
+  ],
+  "unmapped": {
+    "2021–2025": {
+      "overseas_excluding_okinawa": 573,
+      "all_other_locations": 2635,
+      "total": 13047
+    },
+    "2020–2024": {
+      "overseas_excluding_okinawa": 510,
+      "all_other_locations": 2296,
+      "total": 12430
+    }
+  },
+  "anchor_checks": {
+    "r1": {
+      "sites": [
+        "Fort Benning"
+      ],
+      "km": 0.0
+    },
+    "r2": {
+      "sites": [
+        "Fort Benning"
+      ],
+      "km": 0.0
+    },
+    "r3": {
+      "sites": [
+        "Fort Bragg"
+      ],
+      "km": 0.0
+    },
+    "r4": {
+      "sites": [
+        "Fort Bragg"
+      ],
+      "km": 0.0
+    },
+    "r5": {
+      "sites": [
+        "Marine Corps Air Station Cherry Point",
+        "Marine Corps Base Camp Lejeune"
+      ],
+      "km": 12.6
+    },
+    "r6": {
+      "sites": [
+        "Marine Corps Air Station Cherry Point",
+        "Marine Corps Base Camp Lejeune"
+      ],
+      "km": 12.6
+    },
+    "r7": {
+      "sites": [
+        "Joint Base San Antonio"
+      ],
+      "km": 1.9
+    },
+    "r8": {
+      "sites": [
+        "Joint Base San Antonio"
+      ],
+      "km": 1.9
+    },
+    "r9": {
+      "sites": [
+        "Marine Corps Air Station Beaufort",
+        "NAVSUPPFAC Beaufort SC"
+      ],
+      "km": 0.0
+    },
+    "r10": {
+      "sites": [
+        "Marine Corps Air Station Beaufort",
+        "NAVSUPPFAC Beaufort SC"
+      ],
+      "km": 0.0
+    },
+    "r11": {
+      "sites": [
+        "Fort Campbell"
+      ],
+      "km": 0.0
+    },
+    "r12": {
+      "sites": [
+        "Fort Campbell"
+      ],
+      "km": 0.0
+    },
+    "r13": {
+      "sites": [
+        "Fort Johnson"
+      ],
+      "km": 0.0
+    },
+    "r14": {
+      "sites": [
+        "Fort Johnson"
+      ],
+      "km": 0.0
+    },
+    "r15": {
+      "sites": [
+        "MCRD San Diego",
+        "Naval Base San Diego"
+      ],
+      "km": 3.4
+    },
+    "r16": {
+      "sites": [
+        "MCRD San Diego",
+        "Naval Base San Diego"
+      ],
+      "km": 3.4
+    },
+    "r17": {
+      "sites": [
+        "Fort Cavazos"
+      ],
+      "km": 0.0
+    },
+    "r18": {
+      "sites": [
+        "Fort Cavazos"
+      ],
+      "km": 0.0
+    },
+    "r19": {
+      "sites": [],
+      "km": null
+    },
+    "r20": {
+      "sites": [],
+      "km": null
+    },
+    "r21": {
+      "sites": [
+        "Fort Jackson"
+      ],
+      "km": 0.0
+    },
+    "r22": {
+      "sites": [
+        "Fort Jackson"
+      ],
+      "km": 0.0
+    },
+    "r23": {
+      "sites": [
+        "Marine Corps Base Quantico"
+      ],
+      "km": 0.0
+    },
+    "r24": {
+      "sites": [
+        "Marine Corps Base Quantico"
+      ],
+      "km": 0.0
+    },
+    "r25": {
+      "sites": [
+        "Marine Corps Base Camp Pendleton"
+      ],
+      "km": 0.0
+    },
+    "r26": {
+      "sites": [
+        "Marine Corps Base Camp Pendleton"
+      ],
+      "km": 0.0
+    },
+    "r27": {
+      "sites": [
+        "Fort Sill"
+      ],
+      "km": 0.0
+    },
+    "r28": {
+      "sites": [
+        "Fort Sill"
+      ],
+      "km": 0.0
+    },
+    "r29": {
+      "sites": [
+        "Fort Stewart"
+      ],
+      "km": 0.0
+    },
+    "r30": {
+      "sites": [
+        "Fort Stewart"
+      ],
+      "km": 0.0
+    },
+    "r31": {
+      "sites": [
+        "Fort Shafter"
+      ],
+      "km": 0.0
+    },
+    "r32": {
+      "sites": [
+        "Fort Shafter"
+      ],
+      "km": 0.0
+    },
+    "r33": {
+      "sites": [
+        "Marine Corps Air Ground Combat Center Twentynine Palms"
+      ],
+      "km": 0.0
+    },
+    "r34": {
+      "sites": [
+        "Marine Corps Air Ground Combat Center Twentynine Palms"
+      ],
+      "km": 0.0
+    },
+    "r35": {
+      "sites": [
+        "Fort Irwin"
+      ],
+      "km": 0.0
+    },
+    "r36": {
+      "sites": [
+        "Fort Irwin"
+      ],
+      "km": 0.0
+    },
+    "r37": {
+      "sites": [
+        "Fort Leonard Wood"
+      ],
+      "km": 0.0
+    },
+    "r38": {
+      "sites": [
+        "Fort Leonard Wood"
+      ],
+      "km": 0.0
+    },
+    "r39": {
+      "sites": [
+        "NAS Pensacola FL"
+      ],
+      "km": 0.0
+    },
+    "r40": {
+      "sites": [
+        "NAS Pensacola FL"
+      ],
+      "km": 0.0
+    },
+    "r41": {
+      "sites": [
+        "Fort Bliss"
+      ],
+      "km": 0.0
+    },
+    "r42": {
+      "sites": [
+        "Fort Bliss"
+      ],
+      "km": 0.0
+    },
+    "r43": {
+      "sites": [
+        "NAVSUPPACT Annapolis"
+      ],
+      "km": 0.0
+    },
+    "r44": {
+      "sites": [
+        "Fort Wainwright"
+      ],
+      "km": 0.0
+    },
+    "r45": {
+      "sites": [
+        "Joint Base Elmendorf-Richardson"
+      ],
+      "km": 0.0
+    },
+    "r46": {
+      "sites": [
+        "Marine Corps Base Camp Lejeune"
+      ],
+      "km": 0.1
+    },
+    "r47": {
+      "sites": [
+        "Fort Carson"
+      ],
+      "km": 0.0
+    },
+    "r48": {
+      "sites": [],
+      "km": null
+    },
+    "r49": {
+      "sites": [
+        "Fort Drum"
+      ],
+      "km": 0.0
+    },
+    "r50": {
+      "sites": [
+        "MCRD San Diego"
+      ],
+      "km": 0.0
+    },
+    "r51": {
+      "sites": [
+        "Fort Benning"
+      ],
+      "km": 0.0
+    },
+    "r52": {
+      "sites": [
+        "Fort Campbell"
+      ],
+      "km": 0.0
+    },
+    "r53": {
+      "sites": [
+        "Fort Cavazos"
+      ],
+      "km": 0.0
+    },
+    "r54": {
+      "sites": [
+        "Fort Bragg"
+      ],
+      "km": 0.0
+    },
+    "r55": {
+      "sites": [
+        "Fort Johnson"
+      ],
+      "km": 0.0
+    },
+    "r56": {
+      "sites": [
+        "Joint Base Lewis-McChord"
+      ],
+      "km": 0.0
+    },
+    "r57": {
+      "sites": [
+        "Marine Corps Base Camp Pendleton"
+      ],
+      "km": 0.0
+    },
+    "r58": {
+      "sites": [
+        "Fort Leonard Wood"
+      ],
+      "km": 0.0
+    },
+    "r59": {
+      "sites": [
+        "Fort Riley"
+      ],
+      "km": 0.0
+    },
+    "r60": {
+      "sites": [
+        "Marine Corps Base Quantico"
+      ],
+      "km": 0.0
+    },
+    "r61": {
+      "sites": [
+        "Fairchild Air Force Base"
+      ],
+      "km": 0.0
+    },
+    "r62": {
+      "sites": [
+        "Minot Air Force Base"
+      ],
+      "km": 0.0
+    },
+    "r63": {
+      "sites": [
+        "Fort Bliss"
+      ],
+      "km": 0.0
+    },
+    "r64": {
+      "sites": [
+        "Joint Base San Antonio"
+      ],
+      "km": 1.9
+    },
+    "r65": {
+      "sites": [],
+      "km": null
+    },
+    "r66": {
+      "sites": [],
+      "km": null
+    }
+  },
+  "climate": {
+    "21.34,-157.89": {
+      "grid": [
+        21.5,
+        -158.0
+      ],
+      "2021–2025": {
+        "hot_days": 0.0,
+        "jja_tmax": 29.7
+      },
+      "2020–2024": {
+        "hot_days": 0.0,
+        "jja_tmax": 29.8
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 0.0,
+        "severe_cold_nights": 0.0
+      }
+    },
+    "26.5,127.95": {
+      "grid": [
+        26.5,
+        128.0
+      ],
+      "2021–2025": {
+        "hot_days": 0.0,
+        "jja_tmax": 27.8
+      },
+      "2020–2024": {
+        "hot_days": 0.0,
+        "jja_tmax": 27.8
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 0.0,
+        "severe_cold_nights": 0.0
+      }
+    },
+    "29.42,-98.62": {
+      "grid": [
+        29.5,
+        -98.5
+      ],
+      "2021–2025": {
+        "hot_days": 135.4,
+        "jja_tmax": 35.4
+      },
+      "2020–2024": {
+        "hot_days": 131.8,
+        "jja_tmax": 35.7
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 10.4,
+        "severe_cold_nights": 0.0
+      }
+    },
+    "30.35,-87.29": {
+      "grid": [
+        30.5,
+        -87.25
+      ],
+      "2021–2025": {
+        "hot_days": 48.6,
+        "jja_tmax": 31.9
+      },
+      "2020–2024": {
+        "hot_days": 49.0,
+        "jja_tmax": 31.9
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 10.2,
+        "severe_cold_nights": 0.0
+      }
+    },
+    "31.05,-93.21": {
+      "grid": [
+        31.0,
+        -93.25
+      ],
+      "2021–2025": {
+        "hot_days": 97.4,
+        "jja_tmax": 33.9
+      },
+      "2020–2024": {
+        "hot_days": 92.2,
+        "jja_tmax": 33.7
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 14.6,
+        "severe_cold_nights": 0.0
+      }
+    },
+    "31.13,-97.78": {
+      "grid": [
+        31.25,
+        -97.75
+      ],
+      "2021–2025": {
+        "hot_days": 116.8,
+        "jja_tmax": 35.4
+      },
+      "2020–2024": {
+        "hot_days": 114.2,
+        "jja_tmax": 35.9
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 17.4,
+        "severe_cold_nights": 0.0
+      }
+    },
+    "31.81,-106.42": {
+      "grid": [
+        31.75,
+        -106.5
+      ],
+      "2021–2025": {
+        "hot_days": 123.8,
+        "jja_tmax": 35.9
+      },
+      "2020–2024": {
+        "hot_days": 129.6,
+        "jja_tmax": 36.2
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 25.2,
+        "severe_cold_nights": 0.0
+      }
+    },
+    "31.87,-81.61": {
+      "grid": [
+        31.75,
+        -81.5
+      ],
+      "2021–2025": {
+        "hot_days": 56.0,
+        "jja_tmax": 32.1
+      },
+      "2020–2024": {
+        "hot_days": 58.8,
+        "jja_tmax": 32.1
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 13.2,
+        "severe_cold_nights": 0.0
+      }
+    },
+    "32.35,-80.69": {
+      "grid": [
+        32.25,
+        -80.75
+      ],
+      "2021–2025": {
+        "hot_days": 9.2,
+        "jja_tmax": 29.8
+      },
+      "2020–2024": {
+        "hot_days": 10.0,
+        "jja_tmax": 29.8
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 3.2,
+        "severe_cold_nights": 0.0
+      }
+    },
+    "32.36,-84.95": {
+      "grid": [
+        32.25,
+        -85.0
+      ],
+      "2021–2025": {
+        "hot_days": 70.2,
+        "jja_tmax": 32.8
+      },
+      "2020–2024": {
+        "hot_days": 76.2,
+        "jja_tmax": 33.0
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 20.6,
+        "severe_cold_nights": 0.0
+      }
+    },
+    "32.71,-117.17": {
+      "grid": [
+        32.75,
+        -117.0
+      ],
+      "2021–2025": {
+        "hot_days": 9.8,
+        "jja_tmax": 27.5
+      },
+      "2020–2024": {
+        "hot_days": 15.8,
+        "jja_tmax": 27.8
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 0.0,
+        "severe_cold_nights": 0.0
+      }
+    },
+    "32.74,-117.2": {
+      "grid": [
+        32.75,
+        -117.0
+      ],
+      "2021–2025": {
+        "hot_days": 9.8,
+        "jja_tmax": 27.5
+      },
+      "2020–2024": {
+        "hot_days": 15.8,
+        "jja_tmax": 27.8
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 0.0,
+        "severe_cold_nights": 0.0
+      }
+    },
+    "33.3,-117.35": {
+      "grid": [
+        33.25,
+        -117.25
+      ],
+      "2021–2025": {
+        "hot_days": 13.6,
+        "jja_tmax": 28.0
+      },
+      "2020–2024": {
+        "hot_days": 19.6,
+        "jja_tmax": 28.3
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 0.0,
+        "severe_cold_nights": 0.0
+      }
+    },
+    "34.04,-80.87": {
+      "grid": [
+        34.0,
+        -80.75
+      ],
+      "2021–2025": {
+        "hot_days": 43.6,
+        "jja_tmax": 31.5
+      },
+      "2020–2024": {
+        "hot_days": 44.2,
+        "jja_tmax": 31.5
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 29.6,
+        "severe_cold_nights": 0.0
+      }
+    },
+    "34.23,-116.05": {
+      "grid": [
+        34.25,
+        -116.0
+      ],
+      "2021–2025": {
+        "hot_days": 152.8,
+        "jja_tmax": 40.0
+      },
+      "2020–2024": {
+        "hot_days": 158.4,
+        "jja_tmax": 40.1
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 0.8,
+        "severe_cold_nights": 0.0
+      }
+    },
+    "34.65,-98.4": {
+      "grid": [
+        34.75,
+        -98.5
+      ],
+      "2021–2025": {
+        "hot_days": 103.6,
+        "jja_tmax": 34.9
+      },
+      "2020–2024": {
+        "hot_days": 105.0,
+        "jja_tmax": 35.3
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 45.2,
+        "severe_cold_nights": 0.4
+      }
+    },
+    "34.67,-77.36": {
+      "grid": [
+        34.75,
+        -77.25
+      ],
+      "2021–2025": {
+        "hot_days": 18.4,
+        "jja_tmax": 30.2
+      },
+      "2020–2024": {
+        "hot_days": 20.6,
+        "jja_tmax": 30.2
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 26.4,
+        "severe_cold_nights": 0.0
+      }
+    },
+    "34.8,-77.1": {
+      "grid": [
+        34.75,
+        -77.0
+      ],
+      "2021–2025": {
+        "hot_days": 15.0,
+        "jja_tmax": 30.0
+      },
+      "2020–2024": {
+        "hot_days": 16.6,
+        "jja_tmax": 30.0
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 20.2,
+        "severe_cold_nights": 0.0
+      }
+    },
+    "35.14,-79": {
+      "grid": [
+        35.25,
+        -79.0
+      ],
+      "2021–2025": {
+        "hot_days": 39.2,
+        "jja_tmax": 31.1
+      },
+      "2020–2024": {
+        "hot_days": 38.4,
+        "jja_tmax": 31.1
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 38.4,
+        "severe_cold_nights": 0.0
+      }
+    },
+    "35.26,-116.68": {
+      "grid": [
+        35.25,
+        -116.75
+      ],
+      "2021–2025": {
+        "hot_days": 129.2,
+        "jja_tmax": 38.6
+      },
+      "2020–2024": {
+        "hot_days": 133.8,
+        "jja_tmax": 38.7
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 8.4,
+        "severe_cold_nights": 0.0
+      }
+    },
+    "36.66,-87.46": {
+      "grid": [
+        36.75,
+        -87.5
+      ],
+      "2021–2025": {
+        "hot_days": 39.2,
+        "jja_tmax": 31.1
+      },
+      "2020–2024": {
+        "hot_days": 34.6,
+        "jja_tmax": 30.9
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 51.8,
+        "severe_cold_nights": 0.4
+      }
+    },
+    "36.97,127.03": {
+      "grid": [
+        37.0,
+        127.0
+      ],
+      "2021–2025": {
+        "hot_days": 31.0,
+        "jja_tmax": 30.2
+      },
+      "2020–2024": {
+        "hot_days": 24.6,
+        "jja_tmax": 29.7
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 88.0,
+        "severe_cold_nights": 0.0
+      }
+    },
+    "37.76,-92.13": {
+      "grid": [
+        37.75,
+        -92.25
+      ],
+      "2021–2025": {
+        "hot_days": 37.2,
+        "jja_tmax": 30.7
+      },
+      "2020–2024": {
+        "hot_days": 36.6,
+        "jja_tmax": 30.8
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 70.0,
+        "severe_cold_nights": 1.8
+      }
+    },
+    "38.52,-77.31": {
+      "grid": [
+        38.5,
+        -77.25
+      ],
+      "2021–2025": {
+        "hot_days": 35.4,
+        "jja_tmax": 30.7
+      },
+      "2020–2024": {
+        "hot_days": 38.6,
+        "jja_tmax": 30.9
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 42.2,
+        "severe_cold_nights": 0.0
+      }
+    },
+    "38.74,-104.79": {
+      "grid": [
+        38.75,
+        -104.75
+      ],
+      "2021–2025": {
+        "hot_days": 29.6,
+        "jja_tmax": 29.6
+      },
+      "2020–2024": {
+        "hot_days": 32.8,
+        "jja_tmax": 30.0
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 142.2,
+        "severe_cold_nights": 4.6
+      }
+    },
+    "38.98,-76.48": {
+      "grid": [
+        39.0,
+        -76.5
+      ],
+      "2021–2025": {
+        "hot_days": 7.8,
+        "jja_tmax": 28.5
+      },
+      "2020–2024": {
+        "hot_days": 9.6,
+        "jja_tmax": 28.7
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 32.2,
+        "severe_cold_nights": 0.0
+      }
+    },
+    "39.1,-96.81": {
+      "grid": [
+        39.0,
+        -96.75
+      ],
+      "2021–2025": {
+        "hot_days": 62.8,
+        "jja_tmax": 32.5
+      },
+      "2020–2024": {
+        "hot_days": 65.6,
+        "jja_tmax": 32.8
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 88.8,
+        "severe_cold_nights": 4.6
+      }
+    },
+    "44.05,-75.76": {
+      "grid": [
+        44.0,
+        -75.75
+      ],
+      "2021–2025": {
+        "hot_days": 0.4,
+        "jja_tmax": 25.2
+      },
+      "2020–2024": {
+        "hot_days": 1.0,
+        "jja_tmax": 25.3
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 119.8,
+        "severe_cold_nights": 9.0
+      }
+    },
+    "47.1,-122.58": {
+      "grid": [
+        47.0,
+        -122.5
+      ],
+      "2021–2025": {
+        "hot_days": 5.0,
+        "jja_tmax": 25.1
+      },
+      "2020–2024": {
+        "hot_days": 5.0,
+        "jja_tmax": 24.8
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 15.4,
+        "severe_cold_nights": 0.0
+      }
+    },
+    "47.62,-117.65": {
+      "grid": [
+        47.5,
+        -117.75
+      ],
+      "2021–2025": {
+        "hot_days": 38.4,
+        "jja_tmax": 30.1
+      },
+      "2020–2024": {
+        "hot_days": 36.4,
+        "jja_tmax": 29.7
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 101.2,
+        "severe_cold_nights": 1.8
+      }
+    },
+    "48.42,-101.36": {
+      "grid": [
+        48.5,
+        -101.25
+      ],
+      "2021–2025": {
+        "hot_days": 15.0,
+        "jja_tmax": 27.3
+      },
+      "2020–2024": {
+        "hot_days": 14.0,
+        "jja_tmax": 27.7
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 174.0,
+        "severe_cold_nights": 37.8
+      }
+    },
+    "49.7,11.92": {
+      "grid": [
+        49.75,
+        12.0
+      ],
+      "2021–2025": {
+        "hot_days": 3.2,
+        "jja_tmax": 24.2
+      },
+      "2020–2024": {
+        "hot_days": 2.6,
+        "jja_tmax": 23.8
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 75.8,
+        "severe_cold_nights": 0.0
+      }
+    },
+    "61.26,-149.68": {
+      "grid": [
+        61.25,
+        -149.75
+      ],
+      "2021–2025": {
+        "hot_days": 0.0,
+        "jja_tmax": 17.9
+      },
+      "2020–2024": {
+        "hot_days": 0.0,
+        "jja_tmax": 18.1
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 160.6,
+        "severe_cold_nights": 12.4
+      }
+    },
+    "64.83,-147.62": {
+      "grid": [
+        64.75,
+        -147.5
+      ],
+      "2021–2025": {
+        "hot_days": 0.2,
+        "jja_tmax": 22.7
+      },
+      "2020–2024": {
+        "hot_days": 0.2,
+        "jja_tmax": 22.5
+      },
+      "Jul 2020–Jun 2025": {
+        "freeze_nights": 202.2,
+        "severe_cold_nights": 76.2
+      }
+    }
+  },
+  "raster": {
+    "layer": "MODIS_Terra_L3_Land_Surface_Temp_Monthly_Day",
+    "title": "Land Surface Temperature (L3, Monthly, Day, MODIS, Terra)",
+    "projection": "EPSG:3857",
+    "matrix_set": "GoogleMapsCompatible_Level6",
+    "max_zoom": 6,
+    "tiles": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/MODIS_Terra_L3_Land_Surface_Temp_Monthly_Day/default/{time}/GoogleMapsCompatible_Level6/{z}/{y}/{x}.png",
+    "time_start": "2000-03",
+    "time_end": "2026-09",
+    "cadence": "monthly",
+    "units": "K",
+    "colormap": "https://gibs.earthdata.nasa.gov/colormaps/v1.3/MODIS_Land_Surface_Temp.xml",
+    "ramp": [
+      {
+        "rgb": "197,0,255",
+        "celsius": -72.8
+      },
+      {
+        "rgb": "117,0,255",
+        "celsius": -60.8
+      },
+      {
+        "rgb": "37,0,255",
+        "celsius": -48.8
+      },
+      {
+        "rgb": "0,61,255",
+        "celsius": -36.8
+      },
+      {
+        "rgb": "0,163,255",
+        "celsius": -24.8
+      },
+      {
+        "rgb": "11,255,230",
+        "celsius": -12.8
+      },
+      {
+        "rgb": "84,255,60",
+        "celsius": -0.8
+      },
+      {
+        "rgb": "157,255,0",
+        "celsius": 11.2
+      },
+      {
+        "rgb": "233,255,0",
+        "celsius": 23.2
+      },
+      {
+        "rgb": "255,214,0",
+        "celsius": 35.2
+      },
+      {
+        "rgb": "255,151,0",
+        "celsius": 47.2
+      },
+      {
+        "rgb": "255,91,0",
+        "celsius": 59.2
+      },
+      {
+        "rgb": "255,31,0",
+        "celsius": 71.2
+      },
+      {
+        "rgb": "255,4,0",
+        "celsius": 76.6
+      }
+    ],
+    "nodata": "Transparent where the colour map marks no data: water, or no valid land retrieval that month (for example persistent cloud)."
+  },
+  "pipeline": {
+    "mirta": {
+      "status": "ok",
+      "built": "2026-10-21"
+    },
+    "era5": {
+      "status": "ok",
+      "built": "2026-10-21"
+    },
+    "gibs": {
+      "status": "ok",
+      "built": "2026-10-21"
+    }
+  },
+  "gis": {
+    "japan": "gis/japan-prefectures.geojson",
+    "india": "gis/india-states.geojson",
+    "civilian": "gis/civilian-units.geojson",
+    "installations": "gis/installations.geojson",
+    "fallback": "gis/world-fallback.geojson"
+  }
+}

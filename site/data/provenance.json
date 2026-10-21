@@ -1,0 +1,60 @@
+{
+ "cb_2023_us_county_5m.zip": {
+  "bytes": 2987117,
+  "retrieved": "2026-10-21",
+  "sha256": "13b2bcdd81fee8476220793dd1023c4f1d2887945b5f66eef52afa98c99d2485",
+  "url": "https://www2.census.gov/geo/tiger/GENZ2023/shp/cb_2023_us_county_5m.zip"
+ },
+ "fdma_r7.pdf": {
+  "bytes": 897115,
+  "retrieved": "2026-10-21",
+  "sha256": "9b35222aedb8496f6292b5057106b916b7ac234cbfd0f4d5c1ea29e6dbcfaa47",
+  "url": "https://www.fdma.go.jp/disaster/heatstroke/items/r7/heatstroke_nenpou_r7.pdf"
+ },
+ "gibs_capabilities.xml": {
+  "bytes": 5845827,
+  "retrieved": "2026-10-21",
+  "sha256": "ab09d247de4b7af31d41ef2566eef025df7f12faaa81e0fa715f1b2fb3a08709",
+  "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/wmts.cgi?SERVICE=WMTS&REQUEST=GetCapabilities"
+ },
+ "gibs_lst_colormap.xml": {
+  "bytes": 49231,
+  "retrieved": "2026-10-21",
+  "sha256": "b90c74d706d7e353ae8dad503b4aa2326f6abaa4dc32e82a99b98ca844a23912",
+  "url": "https://gibs.earthdata.nasa.gov/colormaps/v1.3/MODIS_Land_Surface_Temp.xml"
+ },
+ "jp_age_2024.xlsx": {
+  "bytes": 20855,
+  "retrieved": "2026-10-21",
+  "sha256": "7016dc3f8d93f2c70674eec9c49a8d8a1a338d5b3e9939939d28633da239cc08",
+  "url": "https://www.stat.go.jp/data/jinsui/2024np/zuhyou/05k2024-3.xlsx"
+ },
+ "jp_pop_2024.xlsx": {
+  "bytes": 20612,
+  "retrieved": "2026-10-21",
+  "sha256": "171c9930a3c881c42ded00fbaace83b4e6dd226d1a90cfddecd1daca2e376e82",
+  "url": "https://www.stat.go.jp/data/jinsui/2024np/zuhyou/05k2024-2.xlsx"
+ },
+ "mirta_selected.geojson": {
+  "bytes": 6966485,
+  "retrieved": "2026-10-21",
+  "sha256": "fca820461b01f68c51354e302f3a7cfe36f8faae51d6d8020b47655146e26943",
+  "url": "https://services2.arcgis.com/FiaPA4ga0iQKduv3/arcgis/rest/services/MIRTA_Polygons_A_view/FeatureServer/0/query?where=SITENAME+IN+%28%27Fairchild+Air+Force+Base%27%2C%27Fort+Benning%27%2C%27Fort+Bliss%27%2C%27Fort+Bragg%27%2C%27Fort+Campbell%27%2C%27Fort+Carson%27%2C%27Fort+Cavazos%27%2C%27Fort+Drum%27%2C%27Fort+Irwin%27%2C%27Fort+Jackson%27%2C%27Fort+Johnson%27%2C%27Fort+Leonard+Wood%27%2C%27Fort+Riley%27%2C%27Fort+Shafter%27%2C%27Fort+Sill%27%2C%27Fort+Stewart%27%2C%27Fort+Wainwright%27%2C%27Joint+Base+Elmendorf-Richardson%27%2C%27Joint+Base+Lewis-McChord%27%2C%27Joint+Base+San+Antonio%27%2C%27MCRD+San+Diego%27%2C%27Marine+Corps+Air+Ground+Combat+Center+Twentynine+Palms%27%2C%27Marine+Corps+Air+Station+Beaufort%27%2C%27Marine+Corps+Air+Station+Cherry+Point%27%2C%27Marine+Corps+Base+Camp+Lejeune%27%2C%27Marine+Corps+Base+Camp+Pendleton%27%2C%27Marine+Corps+Base+Quantico%27%2C%27Minot+Air+Force+Base%27%2C%27NAS+Pensacola+FL%27%2C%27NAVSUPPACT+Annapolis%27%2C%27NAVSUPPFAC+Beaufort+SC%27%2C%27Naval+Base+San+Diego%27%29&outFields=SITENAME%2CFEATURENAME%2CSTATENAMECODE%2CSITEREPORTINGCOMPONENT%2CISJOINTBASE&outSR=4326&f=geojson"
+ },
+ "ne_10m_admin_1.geojson": {
+  "bytes": 40726851,
+  "retrieved": "2026-10-21",
+  "sha256": "22d0e3ad85eb3e27f17cabf8ba2d50e554fbc27a87796ff891d958185da62fb5",
+  "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_10m_admin_1_states_provinces.geojson"
+ },
+ "ne_50m_admin_0.geojson": {
+  "bytes": 3083490,
+  "retrieved": "2026-10-21",
+  "sha256": "3e458fc036ad0a66411f2c1e6cac49c5d7bfb81cb1123bc513b22511a2b7fdeb",
+  "url": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/v5.1.2/geojson/ne_50m_admin_0_countries.geojson"
+ },
+ "era5 (per-anchor files)": {
+  "count": 34,
+  "url": "https://archive-api.open-meteo.com/v1/archive"
+ }
+}
